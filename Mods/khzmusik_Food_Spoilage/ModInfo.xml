@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<xml>
-	<Name value="khzmusik_Food_Spoilage" />
-	<DisplayName value="Food Spoilage (khzmusik)" />
-	<Version value="21.0.1.0" />
-	<Description value="Introduces food and drink spoilage to the game." />
-	<Author value="khzmusik" />
-	<Website value="https://gitlab.com/karlgiesing/7d2d-a21-modlets/khzmusik_Food_Spoilage" />
-</xml>

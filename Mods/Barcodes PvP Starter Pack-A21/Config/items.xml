@@ -1,0 +1,37 @@
+<configs>
+	<append xpath="/items">
+
+		<!-- Starter Bundle Master Template -->
+		<item name="starterBundleMaster">
+			<property name="CreativeMode" value="None"/>
+			<property name="ItemTypeIcon" value="bundle"/>
+			<property name="CustomIcon" value="armorSteelChest"/>
+			<property name="HoldType" value="45"/>
+			<property name="Meshfile" value="@:Other/Items/Food/cornbreadPrefab.prefab"/>
+			<property name="HandMeshfile" value="@:Other/Items/Food/cornbreadHandPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="Mmetal"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Weight" value="0"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Group" value="Special Items"/>
+			<property class="Action0">
+				<property name="Class" value="OpenBundle"/>
+				<property name="Delay" value="0"/>
+				<property name="Use_time" value="0"/>
+			</property>
+		</item>
+
+		<!-- Starter Bundle -->
+		<item name="StarterPackPvP">
+			<property name="Extends" value="starterBundleMaster"/>
+			<property name="DescriptionKey" value="StarterPackPvP"/>
+			<property name="CustomIconTint" value="#38f5f5"/>
+			<property class="Action0">
+				<property name="Create_item" value="medicalFirstAidKit,medicalFirstAidBandage,casinoCoin,foodCanBeef,drinkJarPureMineralWater,gunHandgunT1Pistol,resourceRepairKit,ammoBundle9mmBulletBall,meleeWpnBladeT1HuntingKnife,questRewardT1LightArmorBonusBundle,resourceWoodBundle"/>
+				<property name="Create_item_count" value="2,4,2000,5,5,1,5,30,1,1,1"/>
+			</property>
+		</item>
+
+	</append>
+</configs>
