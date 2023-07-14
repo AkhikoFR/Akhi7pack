@@ -441,7 +441,7 @@
 				<triggered_effect trigger="onSelfBuffUpdate" action="AddBuff" buff="WeaponUser2" /> 
 			</effect_group>	
 			<effect_group name="WeaponUserDied">	
-				<triggered_effect trigger="onSelfDied" action="AnimatorSetInt" property="HoldType" value="0" duration="1" /> <!-- disables the weapon hold anims -->
+				<triggered_effect trigger="onSelfDied" action="AnimatorSetInt" property="HoldType" value="0" duration="1" /> <!-- disables the pistol anims -->
 	<!--		<triggered_effect trigger="onSelfDied" action="Explode" blast_power="0" block_damage="0" block_radius="1" entity_damage="30" entity_radius="4" /> -->
                 <triggered_effect trigger="onSelfDied" action="SetTransformActive" active="false" parent_transform="Hips" transform_path="Gunjoint"/> 
 				<triggered_effect trigger="onSelfDied" action="SetTransformActive" active="false" parent_transform="Hips" transform_path="RightWeapon"/>  
@@ -1515,7 +1515,7 @@
 			<duration value="0"/>
 			<update_rate value="5"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AnimatorSetBool" property="CanTalk" value="true"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AnimatorSetBool" property="CanTalk" value="true"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AnimatorFireTrigger" property="Smile" />
 				<triggered_effect trigger="onSelfDied" action="AnimatorSetBool" property="CanTalk" value="false"/>
 			</effect_group>
@@ -1525,7 +1525,7 @@
 			<duration value="0"/>
 			<update_rate value="2"/>
 			<effect_group>
-				<triggered_effect trigger="onSelfBuffUpdate" action="AnimatorSetBool" property="CanBlink" value="true"/>
+				<triggered_effect trigger="onSelfBuffStart" action="AnimatorSetBool" property="CanBlink" value="true"/>
 				<triggered_effect trigger="onSelfBuffUpdate" action="AnimatorFireTrigger" property="Blink" />
 				<triggered_effect trigger="onSelfDied" action="AnimatorSetBool" property="CanBlink" value="false"/>
 			</effect_group>

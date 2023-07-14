@@ -584,9 +584,9 @@ public static class EntityUtilities
         return true;
     }
 
-    public static void Stop(int entityID)
+    public static void Stop(int EntityID)
     {
-        var myEntity = GameManager.Instance.World.GetEntity(entityID) as EntityAlive;
+        var myEntity = GameManager.Instance.World.GetEntity(EntityID) as EntityAlive;
         if (myEntity == null)
             return;
 
@@ -594,10 +594,6 @@ public static class EntityUtilities
         myEntity.moveHelper?.Stop();
         myEntity.speedForward = 0;
         myEntity.speedStrafe = 0;
-        
-        // This seems to prevent the shuffling of feet.
-        myEntity.emodel.avatarController.UpdateFloat(AvatarController.forwardHash, 0, false);
-        myEntity.emodel.avatarController.UpdateFloat(AvatarController.strafeHash, 0, false);
     }
 
     public static void BackupHelper(int EntityID, Vector3 awayFrom, int distance)
