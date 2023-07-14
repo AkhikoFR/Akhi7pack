@@ -1,0 +1,208 @@
+<configs>
+
+<!-- *** BIOME_GROUPS -->
+	<!-- *** BIOME_ALL_ZOMBIES_GROUP --> <!-- Lowest zombie entity is zombieJanitor, .2 and .1 for Add Ons is proportional as .2 is not unique. --> 
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesAll']/text()" delim="\n" op="add" >
+		RaiderJayneAxe, .1
+		RaiderJayneBat, .1
+		RaiderJayneMachete, .1
+		RaiderJayneKnife, .1
+		RaiderJayneClub, .1
+		RaiderJaynePistol, .1
+		RaiderJayneDPistol, .1
+		RaiderJayneTRifle, .1
+		RaiderJayneSRifle, .1
+                RaiderJayneSMG, .1
+                RaiderGinaAxe, .1
+		RaiderGinaBat, .1
+		RaiderGinaMachete, .1
+		RaiderGinaKnife, .1
+		RaiderGinaClub, .1
+		RaiderGinaPistol, .1
+		RaiderGinaDPistol, .1
+		RaiderGinaTRifle, .1
+		RaiderGinaSRifle, .1
+                RaiderGinaSMG, .1
+                RaiderBettyAxe, .1
+		RaiderBettyBat, .1
+		RaiderBettyMachete, .1
+		RaiderBettyKnife, .1
+		RaiderBettyClub, .1
+		RaiderBettyPistol, .1
+		RaiderBettyDPistol, .1
+		RaiderBettyTRifle, .1
+		RaiderBettySRifle, .1
+                RaiderBettySMG, .1
+	</csv>
+
+	<!-- *** BIOME_ZOMBIES_NIGHT_GROUP --> <!-- Lowest entity is animalZombieDog, .05 and .05 for Add Ons is acceptable because it is already low. -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesNight']/text()" delim="\n" op="add" >
+		RaiderJayneAxe, .05
+		RaiderJayneBat, .05
+		RaiderJayneMachete, .05
+		RaiderJayneKnife, .05
+		RaiderJayneClub, .05
+		RaiderJaynePistol, .05
+		RaiderJayneDPistol, .05
+		RaiderJayneSMG, .05
+		RaiderJayneSRifle, .05
+                RaiderJayneTRifle, .05
+       		RaiderGinaAxe, .05
+		RaiderGinaBat, .05
+		RaiderGinaMachete, .05
+		RaiderGinaKnife, .05
+		RaiderGinaClub, .05
+		RaiderGinaPistol, .05
+		RaiderGinaDPistol, .05
+		RaiderGinaSMG, .05
+		RaiderGinaSRifle, .05
+                RaiderGinaTRifle, .05
+                RaiderBettyAxe, .05
+		RaiderBettyBat, .05
+		RaiderBettyMachete, .05
+		RaiderBettyKnife, .05
+		RaiderBettyClub, .05
+		RaiderBettyPistol, .05
+		RaiderBettyDPistol, .05
+		RaiderBettySMG, .05
+		RaiderBettySRifle, .05
+                RaiderBettyTRifle, .05
+	</csv>
+
+<!-- *** BIOME_ZOMBIES_LUMBERJACK_GROUPS --> <!-- Lowest entity is effectively 1.0 and .05 for Add Ons is proportional as ZombiesAll also has influence here. -->	
+	<csv xpath="/entitygroups/entitygroup[@name='SnowZombies']/text()" delim="\n" op="add" >
+		RaiderJayneAxe, .05
+		RaiderJayneBat, .05
+		RaiderJayneMachete, .05
+		RaiderJayneKnife, .05
+		RaiderJayneClub, .05
+		RaiderJaynePistol, .05
+		RaiderJayneDPistol, .05
+		RaiderJayneSMG, .05
+		RaiderJayneSRifle, .05
+                RaiderJayneTRifle, .05
+                RaiderGinaAxe, .05
+		RaiderGinaBat, .05
+		RaiderGinaMachete, .05
+		RaiderGinaKnife, .05
+		RaiderGinaClub, .05
+		RaiderGinaPistol, .05
+		RaiderGinaDPistol, .05
+		RaiderGinaSMG, .05
+		RaiderGinaSRifle, .05
+                RaiderGinaTRifle, .05
+                RaiderBettyAxe, .05
+		RaiderBettyBat, .05
+		RaiderBettyMachete, .05
+		RaiderBettyKnife, .05
+		RaiderBettyClub, .05
+		RaiderBettyPistol, .05
+		RaiderBettyDPistol, .05
+		RaiderBettySMG, .05
+		RaiderBettySRifle, .05
+                RaiderBettyTRifle, .05
+	</csv>
+
+<!-- *** BIOME_ZOMBIES_WASTELAND_GROUP --> <!-- Lowest entity is effectively 1.0 and .5 for Add Ons is proportional since it is the dangerous Wasteland but still half. -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']/text()" delim="\n" op="add" >
+		RaiderJayneAxe, .5
+		RaiderJayneBat, .5
+		RaiderJayneMachete, .5
+		RaiderJayneKnife, .5
+		RaiderJayneClub, .5
+		RaiderJaynePistol, .5
+		RaiderJayneDPistol, .5
+		RaiderJayneSMG, .5
+		RaiderJayneSRifle, .5
+                RaiderJayneTRifle, .5	
+                RaiderGinaAxe, .5
+		RaiderGinaBat, .5
+		RaiderGinaMachete, .5
+		RaiderGinaKnife, .5
+		RaiderGinaClub, .5
+		RaiderGinaPistol, .5
+		RaiderGinaDPistol, .5
+		RaiderGinaSMG, .5
+		RaiderGinaSRifle, .5
+                RaiderGinaTRifle, .5
+                RaiderBettyAxe, .5
+		RaiderBettyBat, .5
+		RaiderBettyMachete, .5
+		RaiderBettyKnife, .5
+		RaiderBettyClub, .5
+		RaiderBettyPistol, .5
+		RaiderBettyDPistol, .5
+		RaiderBettySMG, .5
+		RaiderBettySRifle, .5
+                RaiderBettyTRifle, .5				
+	</csv>
+	
+<!-- *** BIOME_ZOMBIES_WASTELAND_NIGHT_GROUP --> <!-- Lowest entity is effectively 1.0 and .5 for Add Ons is proportional since it is the dangerous Wasteland but still half. -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']/text()" delim="\n" op="add" >
+		RaiderJayneAxe, .5
+		RaiderJayneBat, .5
+		RaiderJayneMachete, .5
+		RaiderJayneKnife, .5
+		RaiderJayneClub, .5
+		RaiderJaynePistol, .5
+		RaiderJayneDPistol, .5
+		RaiderJayneSMG, .5
+		RaiderJayneSRifle, .5
+                RaiderJayneTRifle, .5	
+                RaiderGinaAxe, .5
+		RaiderGinaBat, .5
+		RaiderGinaMachete, .5
+		RaiderGinaKnife, .5
+		RaiderGinaClub, .5
+		RaiderGinaPistol, .5
+		RaiderGinaDPistol, .5
+		RaiderGinaSMG, .5
+		RaiderGinaSRifle, .5
+                RaiderGinaTRifle, .5	
+                RaiderBettyAxe, .5
+		RaiderBettyBat, .5
+		RaiderBettyMachete, .5
+		RaiderBettyKnife, .5
+		RaiderBettyClub, .5
+		RaiderBettyPistol, .5
+		RaiderBettyDPistol, .5
+		RaiderBettySMG, .5
+		RaiderBettySRifle, .5
+                RaiderBettyTRifle, .5				
+	</csv>
+
+<!-- *** BIOME_ZOMBIES_BURNT_FOREST_GROUP --> <!-- Lowest entity is zombieSteveCrawler, .05 and .025 for Add Ons is proportional. -->
+	<csv xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']/text()" delim="\n" op="add" >
+		RaiderJayneAxe, .025
+		RaiderJayneBat, .025
+		RaiderJayneMachete, .025
+		RaiderJayneKnife, .025
+		RaiderJayneClub, .025
+		RaiderJaynePistol, .025
+		RaiderJayneDPistol, .025
+		RaiderJayneSMG, .025
+		RaiderJayneSRifle, .025
+                RaiderJayneTRifle, .025	
+                RaiderGinaAxe, .025
+		RaiderGinaBat, .025
+		RaiderGinaMachete, .025
+		RaiderGinaKnife, .025
+		RaiderGinaClub, .025
+		RaiderGinaPistol, .025
+		RaiderGinaDPistol, .025
+		RaiderGinaSMG, .025
+		RaiderGinaSRifle, .025
+                RaiderGinaTRifle, .025	
+                RaiderBettyAxe, .025
+		RaiderBettyBat, .025
+		RaiderBettyMachete, .025
+		RaiderBettyKnife, .025
+		RaiderBettyClub, .025
+		RaiderBettyPistol, .025
+		RaiderBettyDPistol, .025
+		RaiderBettySMG, .025
+		RaiderBettySRifle, .025
+                RaiderBettyTRifle, .025	
+	</csv>
+
+</configs>

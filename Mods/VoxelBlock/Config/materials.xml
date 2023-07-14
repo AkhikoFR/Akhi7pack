@@ -1,0 +1,59 @@
+<materials>
+	<append xpath="/materials">
+		<material id="_Concrete_Voxel_Block">
+			<property name="damage_category" value="stone"/>
+			<property name="surface_category" value="stone"/>
+			<property name="forge_category" value="stone"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="stone"/>
+			<property name="stability_glue" value="120"/>
+			<property name="Mass" type="int" value="10"/>
+			<property name="explosionresistance" value="1.2"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="Experience" value="4"/>
+		</material>
+	</append>
+	<append xpath="/materials">
+		<material id="_Concrete_Voxel">
+			<property name="damage_category" value="stone"/>
+			<property name="surface_category" value="stone"/>
+			<property name="forge_category" value="stone"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="stone"/>
+			<property name="stability_glue" value="120"/>
+			<property name="Mass" type="int" value="10"/>
+			<property name="explosionresistance" value="1.2"/>
+			<property name="MaxDamage" value="5000"/>
+			<property name="Experience" value="4"/>
+		</material>
+	</append>
+	
+	<append xpath="/materials">
+		<material id="_Frame_Voxel_Block">
+			<property name="damage_category" value="wood"/>
+			<property name="surface_category" value="wood"/>
+			<property name="forge_category" value="wood"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="40"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="100"/>
+			<property name="Experience" value="2"/>
+		</material>
+	</append>
+	<append xpath="/materials">
+		<material id="_Frame_Voxel">
+			<property name="damage_category" value="wood"/>
+			<property name="surface_category" value="wood"/>
+			<property name="forge_category" value="wood"/>
+			<property name="Hardness" type="float" value="1"/>
+			<property name="stepsound" value="wood"/>
+			<property name="stability_glue" value="40"/>
+			<property name="Mass" type="int" value="5"/>
+			<property name="MaxDamage" value="100"/>
+			<property name="Experience" value="2"/>
+		</material>
+	</append>
+	
+	
+</materials>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <insertAfter xpath="//material[@id='MresourcePaper']">
+        <material id="MresourceFertilizer">
+            <property name="damage_category" value="organic" />
+            <property name="surface_category" value="organic" />
+            <property name="Experience" value="200" />
+        </material>
+    </insertAfter>
+</configs>

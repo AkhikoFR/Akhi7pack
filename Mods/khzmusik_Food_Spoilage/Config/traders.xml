@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+    <!-- Add new canned/preserved foods -->
+    <append xpath="//trader_item_group[@name='cannedfood']">
+        <item name="foodCanCorn"/>
+        <item name="foodCanMushrooms" />
+        <item name="foodCanPotato" />
+        <item name="foodCanPumpkin" />
+        <item name="foodPreservedBlueberries" />
+    </append>
+
+    <!-- Add prepared foods and drinks -->
+    <append xpath="//trader_item_group[@name='groupDrinks']">
+        <item name="drinkJarIPA" count="1,2" />
+    </append>
+    <append xpath="//trader_item_group[@name='preparedFood']">
+        <item name="foodPreservedMeat" count="1,2" />
+        <item name="foodPreservedPie" count="1,2" />
+    </append>
+</configs>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+    <!-- Unlock refrigerators in the same perk and level as battery banks -->
+    <append xpath="//passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'batterybank')]/@tags">,cntRetroFridgePowered,cntFridgeStainlessSteelPowered,cntBeerCoolerPowered</append>
+    <append xpath="//unlock_entry[contains(@item, 'batterybank')]/@item">,cntRetroFridgePowered,cntFridgeStainlessSteelPowered,cntBeerCoolerPowered</append>
+
+    <!-- PRESERVED FOODS -->
+    <!-- Unlock preserved meat in the same perk and level as grilled meat -->
+    <append xpath="//passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'foodGrilledMeat')]/@tags">,foodPreservedMeat</append>
+    <append xpath="//unlock_entry[contains(@item, 'foodGrilledMeat')]/@item">,foodPreservedMeat</append>
+
+    <!-- Unlock canned vegetables and preserved blueberries in the same perk and level as blueberry pie -->
+    <append xpath="//passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'foodBlueberryPie')]/@tags">,foodCanCorn,foodCanPotato,foodCanPumpkin,foodCanMushrooms,foodPreservedBlueberries</append>
+    <append xpath="//unlock_entry[contains(@item, 'foodBlueberryPie')]/@item">,foodCanCorn,foodCanPotato,foodCanPumpkin,foodCanMushrooms,foodPreservedBlueberries</append>
+
+    <!-- Unlock canned meats in the same perk and level as meat stew -->
+    <append xpath="//passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'foodMeatStew')]/@tags">,foodCanBeef,foodCanLamb,foodCanDogfood,foodCanStock,foodCanSham</append>
+    <append xpath="//unlock_entry[contains(@item, 'foodMeatStew')]/@item">,foodCanBeef,foodCanLamb,foodCanDogfood,foodCanStock,foodCanSham</append>
+
+    <!-- Unlock IPA with beer -->
+    <append xpath="//passive_effect[@name='RecipeTagUnlocked' and contains(@tags, 'drinkJarBeer')]/@tags">,drinkJarIPA</append>
+    <append xpath="//unlock_entry[contains(@item, 'drinkJarBeer')]/@item">,drinkJarIPA</append>
+</config>

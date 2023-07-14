@@ -20,6 +20,45 @@ Direct Download to the 0-SCore.zip available on gitlab mirror:
 ### Change Logs
 
 [ Change Log ]
+Version: 21.0.42.1007
+	[ Dialog ]
+		- Added new Dialog Requirement For Tag. This will check the listed tags in the value against the NPC you are talking to.
+			<requirement type="HasTag, SCore" requirementtype="Hide" value="zombie" />
+			<requirement type="HasTag, SCore" requirementtype="Hide" value="zombie,human" />
+
+Version: 21.0.41.1943
+
+	[ Remote Crafting ] 
+		- Fixed an issue where items weren't being properly consumed from the backpack / toolbelt.
+
+Version: 21.0.39.859
+
+	[ UAI ]
+		- Fixed an issue where the NPCs would shuffle in place
+		- Fixed an issue where non-hired NPCs wouldn't face you.
+	
+Version: 21.0.38.1508
+
+	[ Caves ]
+		- Added new property to determine when a deep cave threshold would be considered
+				<!-- Spawning and cave decorations would be considered _Deep when at this level or below -->
+				<!-- This setting is used for spawning as well -->
+				<property name="DeepCaveThreshold" vallue="30" />
+		- Added new property to determine how deep the first cave level is from the top
+				<!-- Determines how far below the surface to begin spawning caves. -->
+				<property name="StartCaveThreshold" value="15" />
+		- Added new property to determine minimum terrain height to start generating caves
+				<!-- Default value is -1, no consideration of terrain height -->
+				<property name="MinStartCaveThreshold" value="-1" />
+
+				<!-- If the terrain height is 40, but the threshold is 41, do not generate a cave -->
+				<property name="MinStartCaveThreshold" value="41" />
+
+		- Fixed an issue where the max levels wasn't being respected.
+		
+	[ UAI ]
+		- Cleaned up IdleSDX
+
 Version: 21.0.37.1546
 	[ Caves ]
 		- Fixed an issue where caveAir was used instead of regular air, so decorations weren't being placed.

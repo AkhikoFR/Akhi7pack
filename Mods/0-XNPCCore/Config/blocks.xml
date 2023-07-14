@@ -1,6 +1,11 @@
 ﻿<configs>
 
  <set xpath="/blocks/block[@name='ConfigFeatureBlock']/property[@class='AdvancedNPCFeatures']/property[@name='AllEntitiesUseFactionTargeting']/@value">true</set>	
+ 
+ <append xpath="/blocks/block[@name='treeMaster']">
+	<property name="Path" value="solid"/> <!-- marking this solid will prevent characters from seeing trees as something you can path through.  NPCs will now go around, zed the same unless there is no valid path then will breakblock  -->
+</append>
+ 
 
  <append xpath="/blocks" >
     <!-- This block will serve as a home location for the NPCs.-->

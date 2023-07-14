@@ -1,0 +1,139 @@
+<blocks>
+<!--voxelblock-->
+	<append xpath="/blocks">
+		<block name="concreteShapesVoxelBlock" shapes="All">
+		
+			<property name="Material" value="_Concrete_Voxel_Block"/>
+
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="DescriptionKey" value="concreteGroupDesc"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Texture" value="8"/>
+			<property name="UiBackgroundTexture" value="8"/>
+			<property class="RepairItems">
+				<property name="resourceConcreteMix" value="8"/>
+			</property>	
+			<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="MC_Shapes"/>
+			<property name="SortOrder1" value="0009"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="concreteShapesVoxel"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="CustomUpgradeSound" value="concreteShapesVoxel"/>
+		</block>
+	</append>
+	
+	<append xpath="/blocks">
+		<block name="concreteShapesVoxel" shapes="All">
+		
+			<property name="Material" value="_Concrete_Voxel"/>
+
+			<property name="Density" value="255"/>
+			
+			<property name="Mesh" value="terrain"/>
+			<property name="Shape" value="Terrain"/>
+
+
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="DescriptionKey" value="concreteGroupDesc"/>
+			<property name="DisplayType" value="blockHardened"/>
+			<property name="Texture" value="8"/>
+			<property name="UiBackgroundTexture" value="8"/>
+			<property class="RepairItems">
+				<property name="resourceConcreteMix" value="8"/>
+			</property>
+			<drop event="Harvest" name="resourceRockSmall" count="25" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedStone" count="1" prob="0.75" stick_chance="1"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="MC_Shapes"/>
+			<property name="SortOrder1" value="0009"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="concreteShapes"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="CustomUpgradeSound" value="place_block_concrete"/>
+
+		</block>
+	</append>
+	
+	<!--Wood frame voxelblock-->
+	<append xpath="/blocks">
+		<block name="frameShapesVoxelBlock" shapes="All">
+		
+			<property name="Material" value="_Frame_Voxel_Block"/>
+
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<property name="Tags" value="wood"/>
+			<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+			<property name="Texture" value="65"/>
+			<property name="UiBackgroundTexture" value="65"/>
+			<property name="FuelValue" value="100"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="3"/>
+			</property>
+			<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="MC_Shapes"/>
+			<property name="SortOrder1" value="aaaa"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="frameShapesVoxel"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+	</append>
+	
+	<append xpath="/blocks">
+		<block name="frameShapesVoxel" shapes="All">
+		
+			<property name="Material" value="_Frame_Voxel"/>
+
+			<property name="Density" value="255"/>
+			
+			<property name="Mesh" value="terrain"/>
+			<property name="Shape" value="Terrain"/>
+
+
+			<property name="Group" value="Basics,Building,advBuilding"/>
+			<property name="Tags" value="wood"/>
+			<property name="DescriptionKey" value="woodFrameGroupDesc"/>
+			<property name="Texture" value="65"/>
+			<property name="UiBackgroundTexture" value="65"/>
+			<property name="FuelValue" value="100"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="3"/>
+			</property>
+			<drop event="Harvest" name="resourceWood" count="2" tag="allHarvest"/>
+			<drop event="Destroy" count="0"/>
+			<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+			<property name="EconomicValue" value="10"/>
+			<property name="EconomicBundleSize" value="20"/>
+			<property name="FilterTags" value="MC_Shapes"/>
+			<property name="SortOrder1" value="aaaa"/>
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="woodShapes"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+			<property name="PassThroughDamage" value="true"/>
+			<property name="CustomUpgradeSound" value="place_block_wood"/>
+			<property name="CanPickup" value="true"/>
+		</block>
+	</append>
+	
+	
+	<!--FarmBlock not working voxelblock-->
+	
+
+</blocks>
