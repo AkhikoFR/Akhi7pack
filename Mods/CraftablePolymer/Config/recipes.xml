@@ -1,0 +1,9 @@
+<Recipes>
+	<append xpath="/recipes">
+	
+		<recipe name="resourceScrapPolymers" count="1" craft_time="1" craft_area="chemistryStation" tags="chemStationCrafting">
+			<ingredient name="resourceOilShale" count="10"/>
+		</recipe>
+		
+	</append>
+</Recipes>

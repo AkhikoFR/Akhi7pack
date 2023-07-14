@@ -1,0 +1,39 @@
+<configs>
+<append xpath="/recipes">
+
+<recipe name="ReinforcedChainlinkFenceVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourceNail" count="5"/>
+</recipe>
+
+<recipe name="ReinforcedbarbedWireVariantHelper" count="1" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<ingredient name="resourceScrapIron" count="50"/>
+	<ingredient name="resourceNail" count="5"/>
+</recipe>
+
+<recipe name="ReinforcedchainlinkFenceDoor" count="1" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<ingredient name="resourceScrapIron" count="100"/>
+	<ingredient name="resourceNail" count="10"/>
+	<ingredient name="resourceMechanicalParts" count="5"/>
+</recipe>
+
+<recipe name="ReinforcedchainlinkFenceDoorDouble" count="1" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceNail" count="20"/>
+	<ingredient name="resourceMechanicalParts" count="10"/>
+</recipe>
+
+<recipe name="ReinforcedchainlinkGateSmall" count="1" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<ingredient name="resourceScrapIron" count="500"/>
+	<ingredient name="resourceNail" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+</recipe>
+
+<recipe name="ReinforcedchainlinkGateWide" count="1" craft_area="workbench" tags="workbenchCrafting,learnable">
+	<ingredient name="resourceScrapIron" count="500"/>
+	<ingredient name="resourceNail" count="50"/>
+	<ingredient name="resourceMechanicalParts" count="25"/>
+</recipe>
+
+</append>
+</configs>

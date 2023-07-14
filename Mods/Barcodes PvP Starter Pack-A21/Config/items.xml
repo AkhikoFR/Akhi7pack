@@ -29,7 +29,7 @@
 			<property name="CustomIconTint" value="#38f5f5"/>
 			<property class="Action0">
 				<property name="Create_item" value="medicalFirstAidKit,medicalFirstAidBandage,casinoCoin,foodCanBeef,drinkJarPureMineralWater,gunHandgunT1Pistol,resourceRepairKit,ammoBundle9mmBulletBall,meleeWpnBladeT1HuntingKnife,questRewardT1LightArmorBonusBundle,resourceWoodBundle"/>
-				<property name="Create_item_count" value="2,4,2000,5,5,1,5,30,1,1,1"/>
+				<property name="Create_item_count" value="2,4,2000,5,5,1,5,1,1,1,1"/>
 			</property>
 		</item>
 

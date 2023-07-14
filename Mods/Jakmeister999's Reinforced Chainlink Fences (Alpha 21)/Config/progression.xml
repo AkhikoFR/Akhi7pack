@@ -1,0 +1,21 @@
+<configs>
+
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='30']/unlock_entry/@item">,ReinforcedChainlinkFenceVariantHelper</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='30,100']/@tags">,ReinforcedChainlinkFenceVariantHelper</append>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='30']/unlock_entry/@item">,ReinforcedbarbedWireVariantHelper</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='30,100']/@tags">,ReinforcedbarbedWireVariantHelper</append>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='30']/unlock_entry/@item">,ReinforcedchainlinkFenceDoor</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='30,100']/@tags">,ReinforcedchainlinkFenceDoor</append>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='30']/unlock_entry/@item">,ReinforcedchainlinkFenceDoorDouble</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='30,100']/@tags">,ReinforcedchainlinkFenceDoorDouble</append>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='30']/unlock_entry/@item">,ReinforcedchainlinkGateSmall</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='30,100']/@tags">,ReinforcedchainlinkGateSmall</append>
+	
+	<append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='30']/unlock_entry/@item">,ReinforcedchainlinkGateWide</append>
+    <append xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@name='RecipeTagUnlocked' and @level='30,100']/@tags">,ReinforcedchainlinkGateWide</append>
+
+</configs>
