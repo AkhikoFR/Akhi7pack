@@ -1,7 +1,0 @@
-<ModManifest>
-  <Version>1.0.0</Version>
-  <GameVersion ReleaseType="Alpha" Major="20" Minor="5" Build="2" />
-  <Dependencies>
-	<Dependency Name="SMXmenu" />
-  </Dependencies>
-</ModManifest>
