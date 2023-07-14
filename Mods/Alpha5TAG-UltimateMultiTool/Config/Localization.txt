@@ -1,0 +1,5 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english,Context / Alternate Text,german,spanish,french,italian,japanese,koreana,polish,brazilian,russian,turkish,schinese,tchinese
+ultimateMultiToolSchematic,items,Tool,,,Ultimate Multi-Tool Schematic
+ultimateMultiToolSchematicDesc,items,Tool,,,Schematic for the Ultimate Multi-Tool.
+a5UltimateMultiTool,items,Tool,,,Ultimate Multi-Tool
+a5UltimateMultiToolDesc,items,Tool,,,The Ultimate Multi-Tool every survivor needs. An all in one Shovel/Axe/Pickaxe.

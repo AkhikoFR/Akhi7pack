@@ -1,0 +1,43 @@
+<Ana>
+
+	<append xpath="/recipes">
+	
+		<recipe name="CoinStack1" count="1" craft_time="0" craft_exp_gain="0">
+			<ingredient name="casinoCoin" count="10000"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="10000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack1" count="1"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="20000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack2" count="1"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="30000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack3" count="1"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="40000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack4" count="1"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="50000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack5" count="1"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="60000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack6" count="1"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="70000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack7" count="1"/>
+		</recipe>
+		
+		<recipe name="casinoCoin" count="80000" craft_time="0" craft_exp_gain="0">
+			<ingredient name="CoinStack8" count="1"/>
+		</recipe>
+		
+	</append>
+	
+</Ana>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<append xpath="/recipes">
+        <recipe name="a5UltimateMultiTool" count="1" craft_area="workbench" tags="learnable,perkMiner69r" craft_time="180">
+            <ingredient name="resourceForgedSteel" count="25"/>
+            <ingredient name="meleeToolAllSteelParts" count="1"/>
+            <ingredient name="resourceMechanicalParts" count="20"/>
+            <ingredient name="resourceLeather" count="15"/>
+            <ingredient name="resourceDuctTape" count="10"/>
+            <effect_group>
+                <passive_effect name="CraftingIngredientCount" level="2,6" operation="perc_add" value=".5,2.5" tags="resourceForgedIron,resourceLeather,resourceDuctTape,resourceMechanicalParts"/>
+            </effect_group>
+        </recipe>
+    </append>
+</configs>

@@ -1,0 +1,201 @@
+<Ana>
+
+	<append xpath="/blocks">
+
+		<block name="CoinStack1">
+			<property name="CustomIcon" value="CoinStack1"/>
+			<property name="DescriptionKey" value="CoinStack1Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab1"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="CoinStack2"/>
+				<property name="Item" value="casinoCoin"/>
+				<property name="ItemCount" value="10000"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack1" />
+			<drop event="Fall" count="1" name="CoinStack1" />
+			<property name="CanPickup" value="true"/>
+		</block>
+		
+		<block name="CoinStack2">
+			<property name="CustomIcon" value="CoinStack2"/>
+			<property name="DescriptionKey" value="CoinStack2Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab2"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="CoinStack3"/>
+				<property name="Item" value="casinoCoin"/>
+				<property name="ItemCount" value="10000"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack2" />
+			<drop event="Fall" count="1" name="CoinStack2" />
+			<property name="CanPickup" value="true"/>
+		</block>
+		
+		<block name="CoinStack3">
+			<property name="CustomIcon" value="CoinStack3"/>
+			<property name="DescriptionKey" value="CoinStack3Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab3"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="CoinStack4"/>
+				<property name="Item" value="casinoCoin"/>
+				<property name="ItemCount" value="10000"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack3" />
+			<drop event="Fall" count="1" name="CoinStack3" />
+			<property name="CanPickup" value="true"/>
+		</block>
+		
+		<block name="CoinStack4">
+			<property name="CustomIcon" value="CoinStack4"/>
+			<property name="DescriptionKey" value="CoinStack4Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab4"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="CoinStack5"/>
+				<property name="Item" value="casinoCoin"/>
+				<property name="ItemCount" value="10000"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack4" />
+			<drop event="Fall" count="1" name="CoinStack4" />
+			<property name="CanPickup" value="true"/>
+		</block>
+		
+		<block name="CoinStack5">
+			<property name="CustomIcon" value="CoinStack5"/>
+			<property name="DescriptionKey" value="CoinStack5Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab5"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="CoinStack6"/>
+				<property name="Item" value="casinoCoin"/>
+				<property name="ItemCount" value="10000"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack5" />
+			<drop event="Fall" count="1" name="CoinStack5" />
+			<property name="CanPickup" value="true"/>
+		</block>
+		
+		<block name="CoinStack6">
+			<property name="CustomIcon" value="CoinStack6"/>
+			<property name="DescriptionKey" value="CoinStack6Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab6"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="CoinStack7"/>
+				<property name="Item" value="casinoCoin"/>
+				<property name="ItemCount" value="10000"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack6" />
+			<drop event="Fall" count="1" name="CoinStack6" />
+			<property name="CanPickup" value="true"/>
+		</block>
+		
+		<block name="CoinStack7">
+			<property name="CustomIcon" value="CoinStack7"/>
+			<property name="DescriptionKey" value="CoinStack7Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab7"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+			<property class="UpgradeBlock">
+				<property name="ToBlock" value="CoinStack8"/>
+				<property name="Item" value="casinoCoin"/>
+				<property name="ItemCount" value="10000"/>
+				<property name="UpgradeHitCount" value="1"/>
+			</property>
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack7" />
+			<drop event="Fall" count="1" name="CoinStack7" />
+			<property name="CanPickup" value="true"/>
+		</block>
+		
+		<block name="CoinStack8">
+			<property name="CustomIcon" value="CoinStack8"/>
+			<property name="DescriptionKey" value="CoinStack8Desc" />
+			<property name="Material" value="McoinStack"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>			
+			<property name="Model" value="#@modfolder:Resources/CoinStack.unity3d?CoinStackPrefab8"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Place" value="TowardsPlacerInverted" />
+			<property name="StabilitySupport" value="true" />
+ 			<property class="RepairItems">
+				<property name="casinoCoin" value="1"/>
+			</property>
+			<drop event="Destroy" count="1" name="CoinStack8" />
+			<drop event="Fall" count="1" name="CoinStack8" />
+			<property name="CanPickup" value="true"/>
+		</block>
+	
+	</append>
+	
+</Ana>

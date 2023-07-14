@@ -1,0 +1,5 @@
+<Ana>
+
+	<append xpath="/items/item/property[@class='Action1']/property[@name='Allowed_upgrade_items']/@value">,casinoCoin</append>
+	
+</Ana>

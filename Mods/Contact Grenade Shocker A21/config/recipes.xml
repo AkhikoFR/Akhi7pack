@@ -1,0 +1,15 @@
+<modpreppers>
+
+	<append xpath="recipes">
+
+<recipe name="Grenade Shocker A21 X1" count="1" craft_area="workbench" >
+  <ingredient name="resourceMechanicalParts" count="2"/>
+	<ingredient name="resourceGunPowder" count="14"/>
+	<ingredient name="resourceForgedIron" count="4"/>
+	<ingredient name="resourceSpring" count="1"/>
+	<ingredient name="resourceElectricParts" count="2"/>
+</recipe>
+	</append>  
+
+
+</modpreppers>
