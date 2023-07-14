@@ -1,0 +1,46 @@
+<configs>
+<append xpath="/blocks">
+<block name="LBX_Coop">
+			<property name="Class" value="PlantGrowing"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="ModelOffset" value="0,0.4,0"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Material" value="Mwood"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="DescriptionKey" value="LBX_Coop_Desc"/>
+			<property name="Model" value="#@modfolder:Resources/cratev2.unity3d?crateprefab"/>
+			<property name="StabilitySupport" value="true"/>
+			<property name="MultiBlockDim" value="2,2,3"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="Collide" value="movement,rockets,sight,melee"/>
+			<property name="CustomIcon" value="LBXChickenBucketEMPTY1"/>
+			<property class="PlantGrowing">
+				<property name="Next" value="LBX_Coop_Full"/>
+				<property name="GrowthRate" value="1"/>  <!-- 45 = a 60 min day -->
+				<property name="FertileLevel" value="0"/>
+				<property name="IsRandom" value="false"/> 
+			</property>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+		<block name="LBX_Coop_Full">
+			<property name="Class" value="Loot"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="ModelOffset" value="0,0.5,0"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Model" value="#@modfolder:Resources/cratefullV2.unity3d?cratefullprefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<property name="MultiBlockDim" value="2,2,3"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Collide" value="movement,rockets,sight,melee"/>
+			<property name="LootList" value="chickenbin"/>
+			<property name="CustomIcon" value="LBXChickenBucketFULL1"/>
+			<property name="DowngradeBlock" value="LBX_Coop"/>
+		</block>
+		
+</append>
+</configs>

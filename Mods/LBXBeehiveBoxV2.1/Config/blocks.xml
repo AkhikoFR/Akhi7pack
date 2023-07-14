@@ -1,0 +1,51 @@
+<configs>
+	<append xpath="/blocks">
+		<block name="LBX_BeehiveBox">
+			<property name="Class" value="PlantGrowing"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Material" value="Mwood"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="Group" value="Building,advBuilding"/>
+			<property name="DescriptionKey" value="LBX_BeehiveBox_Desc"/>
+			<property name="Model" value="#@modfolder:Resources/Hiveboxv2.unity3d?hiveboxv2Prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="LBX_BeehiveBox" count="1"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="EconomicValue" value="200"/>
+			<property name="Collide" value="movement,rockets,sight,melee"/>
+			<property name="CustomIcon" value="BeehiveBoxEmpty1"/>
+			<property class="PlantGrowing">
+				<property name="Next" value="LBX_BeehiveBox_Full"/>
+				<property name="GrowthRate" value="22"/>  <!-- 45 = a 60 min day , Approx 22 is Half a day  -->
+				<property name="FertileLevel" value="0"/>
+				<property name="IsRandom" value="false"/>
+			</property>
+			<property name="FilterTags" value="fdecor,fother,ffurniture"/>
+		</block>
+		<block name="LBX_BeehiveBox_Full">
+			<property name="Class" value="Loot"/>
+			<property name="DisplayType" value="blockMulti"/>
+			<property name="CreativeMode" value="Dev"/>
+			<property name="Material" value="Mwood"/>
+			<property name="Model" value="#@modfolder:Resources/Hiveboxfullv2.unity3d?hiveboxfullv2Prefab"/>
+			<property name="StabilitySupport" value="false"/>
+			<property class="RepairItems">
+				<property name="resourceWood" value="10"/>
+			</property>
+			<drop event="Destroy" name="foodHoney" count="1"/>
+			<property name="MultiBlockDim" value="1,1,1"/>
+			<property name="Shape" value="ModelEntity"/>
+			<property name="Path" value="solid"/>
+			<property name="Collide" value="movement,rockets,sight,melee"/>
+			<property name="LootList" value="beehivebox"/>
+			<property name="CustomIcon" value="BeehiveBoxFull1"/>
+			<property name="DowngradeBlock" value="LBX_BeehiveBox"/>
+		</block>
+	</append>
+</configs>

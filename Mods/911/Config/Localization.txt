@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+911,vehicles,vehicle,new, 911,,,,,
+911Placeable,vehicles,item,EnChanged, 911,,,,,
+911PlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

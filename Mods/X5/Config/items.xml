@@ -1,0 +1,167 @@
+<configs>
+
+	<append xpath="/items">
+	<item name="X5 BluePlaceable">
+			<property name="CustomIcon" value="x5 blue logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 BluePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Blue"/>
+		</property>
+			<effect_group name="X5 BluePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 RedPlaceable">
+			<property name="CustomIcon" value="x5 red logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 RedPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 Red.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Red"/>
+		</property>
+			<effect_group name="X5 RedPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 WhitePlaceable">
+			<property name="CustomIcon" value="x5 white logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 WhitePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 white.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 White"/>
+		</property>
+			<effect_group name="X5 WhitePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 YellowPlaceable">
+			<property name="CustomIcon" value="x5 yellow logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 YellowPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 Yellow.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Yellow"/>
+		</property>
+			<effect_group name="X5 YellowPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 GreenPlaceable">
+			<property name="CustomIcon" value="x5 green logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 GreenPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 Green.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Green"/>
+		</property>
+			<effect_group name="X5 GreenPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 PurplePlaceable">
+			<property name="CustomIcon" value="x5 purple logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 PurplePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 Purple.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Purple"/>
+		</property>
+			<effect_group name="X5 PurplePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 BlackPlaceable">
+			<property name="CustomIcon" value="x5 black logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 BlackPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 Black.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Black"/>
+		</property>
+			<effect_group name="X5 BlackPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 OrangePlaceable">
+			<property name="CustomIcon" value="x5 orange logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 OrangePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 Orange.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Orange"/>
+		</property>
+			<effect_group name="X5 OrangePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+<item name="X5 CyanPlaceable">
+			<property name="CustomIcon" value="x5 cyan logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="X5 CyanPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/x5 Cyan.unity3d?bmw x5"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="X5 Cyan"/>
+		</property>
+			<effect_group name="X5 CyanPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	</append>
+</configs>

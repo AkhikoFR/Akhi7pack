@@ -1,0 +1,67 @@
+<configs>
+<append xpath="/recipes"> <!-- Standard based on a 4x4 Vehicle -->
+<recipe name="Supra BlackPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra RedPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra BluePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra WhitePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra PurplePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra GreenPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra OrangePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra YellowPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="Supra CyanPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+</append>
+</configs>

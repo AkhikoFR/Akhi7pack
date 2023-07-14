@@ -1,0 +1,46 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Black,vehicles,vehicle,new, 240 Black,,,,,
+240 BlackPlaceable,vehicles,item,EnChanged, 240 Black,,,,,
+240 BlackPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Red,vehicles,vehicle,new, 240 Red,,,,,
+240 RedPlaceable,vehicles,item,EnChanged, 240 Red,,,,,
+240 RedPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Blue,vehicles,vehicle,new, 240 Blue,,,,,
+240 BluePlaceable,vehicles,item,EnChanged, 240 Blue,,,,,
+240 BluePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 White,vehicles,vehicle,new, 240 White,,,,,
+240 WhitePlaceable,vehicles,item,EnChanged, 240 White,,,,,
+240 WhitePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Purple,vehicles,vehicle,new, 240 Purple,,,,,
+240 PurplePlaceable,vehicles,item,EnChanged, 240 Purple,,,,,
+240 PurplePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Green,vehicles,vehicle,new, 240 Green,,,,,
+240 GreenPlaceable,vehicles,item,EnChanged, 240 Green,,,,,
+240 GreenPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Orange,vehicles,vehicle,new, 240 Orange,,,,,
+240 OrangePlaceable,vehicles,item,EnChanged, 240 Orange,,,,,
+240 OrangePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Yellow,vehicles,vehicle,new, 240 Yellow,,,,,
+240 YellowPlaceable,vehicles,item,EnChanged, 240 Yellow,,,,,
+240 YellowPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+240 Cyan,vehicles,vehicle,new, 240 Cyan,,,,,
+240 CyanPlaceable,vehicles,item,EnChanged, 240 Cyan,,,,,
+240 CyanPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

@@ -1,0 +1,46 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Black,vehicles,vehicle,new, Italian GranTurismo Black,,,,,
+Italian GranTurismo BlackPlaceable,vehicles,item,EnChanged, Italian GranTurismo Black,,,,,
+Italian GranTurismo BlackPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Red,vehicles,vehicle,new, Italian GranTurismo Red,,,,,
+Italian GranTurismo RedPlaceable,vehicles,item,EnChanged, Italian GranTurismo Red,,,,,
+Italian GranTurismo RedPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Blue,vehicles,vehicle,new, Italian GranTurismo Blue,,,,,
+Italian GranTurismo BluePlaceable,vehicles,item,EnChanged, Italian GranTurismo Blue,,,,,
+Italian GranTurismo BluePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo White,vehicles,vehicle,new, Italian GranTurismo White,,,,,
+Italian GranTurismo WhitePlaceable,vehicles,item,EnChanged, Italian GranTurismo White,,,,,
+Italian GranTurismo WhitePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Purple,vehicles,vehicle,new, Italian GranTurismo Purple,,,,,
+Italian GranTurismo PurplePlaceable,vehicles,item,EnChanged, Italian GranTurismo Purple,,,,,
+Italian GranTurismo PurplePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Green,vehicles,vehicle,new, Italian GranTurismo Green,,,,,
+Italian GranTurismo GreenPlaceable,vehicles,item,EnChanged, Italian GranTurismo Green,,,,,
+Italian GranTurismo GreenPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Orange,vehicles,vehicle,new, Italian GranTurismo Orange,,,,,
+Italian GranTurismo OrangePlaceable,vehicles,item,EnChanged, Italian GranTurismo Orange,,,,,
+Italian GranTurismo OrangePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Yellow,vehicles,vehicle,new, Italian GranTurismo Yellow,,,,,
+Italian GranTurismo YellowPlaceable,vehicles,item,EnChanged, Italian GranTurismo Yellow,,,,,
+Italian GranTurismo YellowPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Italian GranTurismo Cyan,vehicles,vehicle,new, Italian GranTurismo Cyan,,,,,
+Italian GranTurismo CyanPlaceable,vehicles,item,EnChanged, Italian GranTurismo Cyan,,,,,
+Italian GranTurismo CyanPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

@@ -1,0 +1,53 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+{Item_in_code},{xml_file_itappears_in},{type_of_object eg:resouce/weapon},{true/false/null can leave blank},{true/false/null can leave blank},"{Localized_Name_Eng}"
+
+FixBrokenBones,items,item,,,"Bone Potion"
+FixBrokenBonesDesc,items,item,,,"This potion will Repair your Broken and Sprained Bones"
+PotionHealth1,items,item,,,"Health Potion +15"
+PotionHealth1Desc,items,item,,,"This potion will heal you for 15HP"
+PotionHealth2,items,item,,,"Health Potion +30"
+PotionHealth2Desc,items,item,,,"This potion will heal you for 30HP"
+PotionHealth3,items,item,,,"Health Potion +50"
+PotionHealth3Desc,items,item,,,"This potion will heal you for 50HP"
+
+buffhealingpotion1Desc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. Healed 15 Health."
+buffhealingpotion2Desc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. Healed 30 Health."
+buffhealingpotion3Desc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. Healed 50 Health."
+bufffixboneDesc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. Fixed Broken/Sprained Bones."
+
+buffhealingpotion1,buffs,buff,,,"+15 Health"
+buffhealingpotion2,buffs,buff,,,"+30 Health"
+buffhealingpotion3,buffs,buff,,,"+50 Health"
+bufffixbone,buffs,buff,,,"Bones and Sprains Fixed"
+
+buffStoneskinpotion1Desc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. 50%  Damage Mitigation."
+buffStoneskinpotion2Desc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. 100%  Damage Mitigation."
+buffStoneskinpotion3Desc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. 150%  Damage Mitigation."
+
+PotionDamagemitigation1,items,item,,,"Protective Potion +50%"
+PotionDamagemitigation2,items,item,,,"Protective Potion +100%"
+PotionDamagemitigation3,items,item,,,"Protective Potion +150%"
+
+PotionDamagemitigation1Desc,items,item,,,"This potion will mitigate 50% of damage"
+PotionDamagemitigation2Desc,items,item,,,"This potion will mitigate 100% of damage"
+PotionDamagemitigation3Desc,items,item,,,"This potion will mitigate 150% of damage"
+
+
+Potionwoodharvest,items,item,,,"Harvest Potion +25%"
+PotionwoodharvestDesc,items,item,,,"This potion allows you to have +25% Harvest rate to Ores and Wood"
+
+PotionMetalharvest,items,item,,,"Salvage Potion +25%"
+PotionMetalharvestDesc,items,item,,,"This potion allows you to have +25% Salvage rate"
+
+buffPloggingDesc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. 25%  Ore and Wood Harvest."
+buffPSalvageDesc,buffs,buff,,,"This Buff Is to let you know that you have consumed the following Potion. 25%  Parts Salvage."
+
+
+
+
+
+
+
+
+
+

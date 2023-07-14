@@ -1,0 +1,37 @@
+<configs>
+	<append xpath="/items" >
+		<item name="speakerSchematic">
+			<property name="Extends" value="schematicNoQualityMaster"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="CustomIcon" value="speaker"/>
+			<property name="Unlocks" value="speaker,FeelSpeaker_alarm_1,FeelSpeaker_beep_1,FeelSpeaker_beep_2,FeelSpeaker_beep_3,FeelSpeaker_beep_4,FeelSpeaker_bell_1,FeelSpeaker_bell_2,FeelSpeaker_emergency_1,FeelSpeaker_emergency_2,FeelSpeaker_emergency_3,FeelSpeaker_fire_1,FeelSpeaker_fire_2,FeelSpeaker_fire_3,FeelSpeaker_rooster_1,FeelSpeaker_siren_1,FeelSpeaker_siren_2,FeelSpeaker_siren_3,FeelSpeaker_siren_4,FeelSpeaker_siren_5,FeelSpeaker_siren_6,FeelSpeaker_siren_7,FeelSpeaker_ship_1,FeelSpeaker_train_1"/>
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="speaker" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_alarm_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_beep_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_beep_2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_beep_3" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_beep_4" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_bell_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_bell_2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_emergency_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_emergency_2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_emergency_3" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_fire_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_fire_2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_fire_3" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_rooster_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_siren_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_siren_2" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_siren_3" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_siren_4" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_siren_5" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_siren_6" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_siren_7" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_ship_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="FeelSpeaker_train_1" operation="set" value="1"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+			</effect_group>
+		</item>
+	</append>
+</configs>

@@ -1,0 +1,175 @@
+<configs>
+
+	<append xpath="/items">
+	<item name="Supra BlackPlaceable">
+			<property name="CustomIcon" value="Supra Black logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra BlackPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Black.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Black"/>
+		</property>
+			<effect_group name="Supra BlackPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	<item name="Supra RedPlaceable">
+			<property name="CustomIcon" value="Supra Red logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra RedPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Red.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Red"/>
+		</property>
+			<effect_group name="Supra RedPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Supra BluePlaceable">
+			<property name="CustomIcon" value="Supra Blue logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra BluePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Blue.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Blue"/>
+		</property>
+			<effect_group name="Supra BluePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Supra WhitePlaceable">
+			<property name="CustomIcon" value="Supra White logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra WhitePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra White.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra White"/>
+		</property>
+			<effect_group name="Supra WhitePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Supra PurplePlaceable">
+			<property name="CustomIcon" value="Supra Purple logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra PurplePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Purple.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Purple"/>
+		</property>
+			<effect_group name="Supra PurplePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Supra GreenPlaceable">
+			<property name="CustomIcon" value="Supra Green logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra GreenPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Green.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Green"/>
+		</property>
+			<effect_group name="Supra GreenPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Supra OrangePlaceable">
+			<property name="CustomIcon" value="Supra Orange logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra OrangePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Orange.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Orange"/>
+		</property>
+			<effect_group name="Supra OrangePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Supra YellowPlaceable">
+			<property name="CustomIcon" value="Supra Yellow logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra YellowPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Yellow.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Yellow"/>
+		</property>
+			<effect_group name="Supra YellowPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	<item name="Supra CyanPlaceable">
+			<property name="CustomIcon" value="Supra Cyan logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Supra CyanPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Supra Cyan.unity3d?Supra"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Supra Cyan"/>
+		</property>
+			<effect_group name="Supra CyanPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+
+	</append>
+</configs>

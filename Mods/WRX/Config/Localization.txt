@@ -1,0 +1,41 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX Blue,vehicles,vehicle,new, WRX Blue,,,,,
+WRX BluePlaceable,vehicles,item,EnChanged, WRX Blue,,,,,
+WRX BluePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX Red,vehicles,vehicle,new, WRX Red,,,,,
+WRX RedPlaceable,vehicles,item,EnChanged, WRX Red,,,,,
+WRX RedPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX White,vehicles,vehicle,new, WRX White,,,,,
+WRX WhitePlaceable,vehicles,item,EnChanged, WRX White,,,,,
+WRX WhitePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX Yellow,vehicles,vehicle,new, WRX Yellow,,,,,
+WRX YellowPlaceable,vehicles,item,EnChanged, WRX Yellow,,,,,
+WRX YellowPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX Green,vehicles,vehicle,new, WRX Green,,,,,
+WRX GreenPlaceable,vehicles,item,EnChanged, WRX Green,,,,,
+WRX GreenPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX Purple,vehicles,vehicle,new, WRX Purple,,,,,
+WRX PurplePlaceable,vehicles,item,EnChanged, WRX Purple,,,,,
+WRX PurplePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX Black,vehicles,vehicle,new, WRX Black,,,,,
+WRX BlackPlaceable,vehicles,item,EnChanged, WRX Black,,,,,
+WRX BlackPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+WRX Orange,vehicles,vehicle,new, WRX Orange,,,,,
+WRX OrangePlaceable,vehicles,item,EnChanged, WRX Orange,,,,,
+WRX OrangePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

@@ -1,0 +1,63 @@
+<modpreppers>
+
+	<append xpath="recipes">
+
+<recipe name="SuperTimedCharge A21 X1" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="30"/>
+	<ingredient name="resourceGunPowder" count="25"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="30"/>
+</recipe>
+
+<recipe name="SuperTimedCharge A21 X2" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="40"/>
+	<ingredient name="resourceGunPowder" count="35"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="40"/>
+</recipe>
+
+<recipe name="SuperTimedCharge A21 X3" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="60"/>
+	<ingredient name="resourceGunPowder" count="45"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="60"/>
+</recipe>
+
+<recipe name="SuperTimedCharge A21 X4" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="80"/>
+	<ingredient name="resourceGunPowder" count="55"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="80"/>
+</recipe>
+
+<recipe name="SuperTimedCharge A21 X5" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="100"/>
+	<ingredient name="resourceGunPowder" count="65"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="100"/>	
+</recipe>
+
+<recipe name="SuperTimedCharge A21 X6" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="130"/>
+	<ingredient name="resourceGunPowder" count="80"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="120"/>	
+</recipe>
+
+<recipe name="SuperTimedCharge A21 X7" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="148"/>
+	<ingredient name="resourceGunPowder" count="100"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="165"/>	
+</recipe>
+
+<recipe name="SuperTimedCharge A21 X8" count="1" craft_area="workbench" >
+	<ingredient name="resourceScrapIron" count="180"/>
+	<ingredient name="resourceGunPowder" count="140"/>
+	<ingredient name="resourceElectricParts" count="1"/>
+	<ingredient name="ammoGasCan" count="260"/>	
+</recipe>
+	</append>  
+
+
+</modpreppers>

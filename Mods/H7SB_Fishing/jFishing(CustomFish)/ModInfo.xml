@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="jFishing(CustomFish)"/>
+    <DisplayName value="jFishing(CustomFish)" />
+    <Version value="1.0" />
+   <Description value="This is a hook to replace rawMeat with your own custom fish."/>
+    <Author value="Eihwaz" />
+    <Website value="https://linktr.ee/eihwazgeht" />
+</xml>

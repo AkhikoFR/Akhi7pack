@@ -1,0 +1,46 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Black,vehicles,vehicle,new, E30 Black,,,,,
+E30 BlackPlaceable,vehicles,item,EnChanged, E30 Black,,,,,
+E30 BlackPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Red,vehicles,vehicle,new, E30 Red,,,,,
+E30 RedPlaceable,vehicles,item,EnChanged, E30 Red,,,,,
+E30 RedPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Blue,vehicles,vehicle,new, E30 Blue,,,,,
+E30 BluePlaceable,vehicles,item,EnChanged, E30 Blue,,,,,
+E30 BluePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Grey,vehicles,vehicle,new, E30 Grey,,,,,
+E30 GreyPlaceable,vehicles,item,EnChanged, E30 Grey,,,,,
+E30 GreyPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Purple,vehicles,vehicle,new, E30 Purple,,,,,
+E30 PurplePlaceable,vehicles,item,EnChanged, E30 Purple,,,,,
+E30 PurplePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Green,vehicles,vehicle,new, E30 Green,,,,,
+E30 GreenPlaceable,vehicles,item,EnChanged, E30 Green,,,,,
+E30 GreenPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Orange,vehicles,vehicle,new, E30 Orange,,,,,
+E30 OrangePlaceable,vehicles,item,EnChanged, E30 Orange,,,,,
+E30 OrangePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Pink,vehicles,vehicle,new, E30 Pink,,,,,
+E30 PinkPlaceable,vehicles,item,EnChanged, E30 Pink,,,,,
+E30 PinkPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+E30 Cyan,vehicles,vehicle,new, E30 Cyan,,,,,
+E30 CyanPlaceable,vehicles,item,EnChanged, E30 Cyan,,,,,
+E30 CyanPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

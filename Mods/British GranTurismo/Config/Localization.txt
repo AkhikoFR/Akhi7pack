@@ -1,0 +1,7 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+British GranTurismo,vehicles,vehicle,new, British GranTurismo,,,,,
+British GranTurismoPlaceable,vehicles,item,EnChanged, British GranTurismo,,,,,
+British GranTurismoPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+

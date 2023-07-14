@@ -1,0 +1,67 @@
+<configs>
+<append xpath="/recipes"> <!-- Standard based on a 4x4 Vehicle -->
+<recipe name="370 BlackPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 RedPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 BluePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 WhitePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 PurplePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 GreenPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 OrangePlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 YellowPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+<recipe name="370 CyanPlaceable" count="1" craft_time="210" craft_area="workbench" tags="workbenchCrafting">
+<ingredient name="vehicleWheels" count="4"/>
+<ingredient name="vehicle4x4TruckChassis" count="1"/>
+<ingredient name="vehicle4x4TruckAccessories" count="1"/>
+<ingredient name="smallEngine" count="1"/>
+<ingredient name="carBattery" count="1"/>
+</recipe>
+</append>
+</configs>

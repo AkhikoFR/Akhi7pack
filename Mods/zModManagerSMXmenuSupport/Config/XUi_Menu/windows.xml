@@ -1,0 +1,7 @@
+<modmanager_smxmenu_windows>
+	<insertBefore xpath="/windows/window[@name='mainMenu']/grid/smxmenu_mainmenubutton[@name='btnOptions']">
+		<smxmenu_mainmenubutton name="btnMods" pivot="center" width="230" height="65" caption_key="xuiMods" overflow="ShrinkContent"/>
+	</insertBefore>
+	
+	<remove xpath="/windows/window[@name='mainMenu']/grid/rect"/>
+</modmanager_smxmenu_windows>

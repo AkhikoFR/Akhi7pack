@@ -1,0 +1,135 @@
+<Twitch.tv.DEV__GANG>	
+<append xpath="/items">
+
+<item name="FixBrokenBones"> 
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="FixBrokenBonesDesc"/>
+	<property name="CustomIcon" value="bonepotion"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="bufffixbone"/>
+	</effect_group>
+</item>
+
+<item name="PotionHealth1">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionHealth1Desc"/>
+	<property name="CustomIcon" value="healthpotion1"/>
+	<property name="DisplayType" value="healthpotion"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffhealingpotion1"/>
+		<display_value name="foodHealthAmount" value="15"/>
+	</effect_group>
+</item>
+
+<item name="PotionHealth2">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionHealth2Desc"/>
+	<property name="CustomIcon" value="healthpotion2"/>
+	<property name="DisplayType" value="healthpotion"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffhealingpotion2"/>
+		<display_value name="foodHealthAmount" value="30"/>
+	</effect_group>
+</item>
+
+<item name="PotionHealth3">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionHealth3Desc"/>
+	<property name="CustomIcon" value="healthpotion3"/>
+	<property name="DisplayType" value="healthpotion"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffhealingpotion3"/>
+		<display_value name="foodHealthAmount" value="50"/>
+	</effect_group>
+</item>
+
+<item name="PotionDamagemitigation1">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionDamagemitigation1Desc"/>
+	<property name="CustomIcon" value="stoneskinpotion1"/>
+	<property name="DisplayType" value="Stoneskinpotion"/>
+	<property name="EconomicValue" value="100"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+		<display_value name="dHealthLoss" value="0.5"/>
+		<display_value name="dDuration" value="60"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStoneskinpotion1"/>
+	</effect_group>
+</item>
+
+<item name="PotionDamagemitigation2">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionDamagemitigation2Desc"/>
+	<property name="CustomIcon" value="stoneskinpotion2"/>
+	<property name="DisplayType" value="Stoneskinpotion"/>
+	<property name="EconomicValue" value="250"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+		<display_value name="dHealthLoss" value="1.0"/>
+		<display_value name="dDuration" value="120"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffStoneskinpotion2"/>
+	</effect_group>
+</item>
+
+<item name="PotionDamagemitigation3">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionDamagemitigation3Desc"/>
+	<property name="CustomIcon" value="stoneskinpotion3"/>
+	<property name="DisplayType" value="Stoneskinpotion"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+			<display_value name="dHealthLoss" value="1.5"/>
+			<display_value name="dDuration" value="180"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffPpotion3"/>
+	</effect_group>
+</item>
+
+<item name="Potionwoodharvest">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionwoodharvestDesc"/>
+	<property name="CustomIcon" value="WoodharvestPotion"/>
+	<property name="DisplayType" value="woodharvestpotion"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+			<display_value name="dHealthLoss" value="1.5"/>
+			<display_value name="dHarvestMining" value="0.25"/>
+			<display_value name="dDuration" value="1800"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffPlogging"/>
+	</effect_group>
+</item>
+
+<item name="PotionMetalharvest">
+	<property name="Extends" value="drugPainkillers"/>
+	<property name="DescriptionKey" value="PotionMetalharvestDesc"/>
+	<property name="CustomIcon" value="salvageharvest"/>
+	<property name="DisplayType" value="Metalslavage"/>
+	<property name="EconomicValue" value="500"/>
+	<property name="Group" value="Science,Medical,TCMedical"/>
+	<effect_group tiered="false" name="Drug Tier 3">
+			<display_value name="dHealthLoss" value="1.5"/>
+			<display_value name="dHarvestMining" value="0.25"/>
+			<display_value name="dDuration" value="1800"/>
+		<triggered_effect trigger="onSelfPrimaryActionEnd" action="AddBuff" buff="buffPSalvage"/>
+	</effect_group>
+</item>
+
+
+
+
+
+
+
+
+
+</append>
+</Twitch.tv.DEV__GANG>

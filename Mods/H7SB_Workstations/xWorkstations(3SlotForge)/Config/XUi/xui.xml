@@ -1,0 +1,16 @@
+<!-- - - - - - - - - - - -
+#########################
+###  H7SB Workstation  ##
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_forge']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Default']/window[@name='windowForgeInput']/@name">windowThreeForgeInput</set>
+	<set xpath="/xui/ruleset/window_group[@name='workstation_H7SB_WoodBurningStove_Default']/window[@name='windowOutput']/@name">windowThreeForgeOutput</set>
+</eihwaz.de>

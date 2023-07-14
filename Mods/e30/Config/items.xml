@@ -1,0 +1,175 @@
+<configs>
+
+	<append xpath="/items">
+	<item name="E30 BlackPlaceable">
+			<property name="CustomIcon" value="E30 Black logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 BlackPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Black.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Black"/>
+		</property>
+			<effect_group name="E30 BlackPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	<item name="E30 RedPlaceable">
+			<property name="CustomIcon" value="E30 Red logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 RedPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Red.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Red"/>
+		</property>
+			<effect_group name="E30 RedPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="E30 BluePlaceable">
+			<property name="CustomIcon" value="E30 Blue logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 BluePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Blue.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Blue"/>
+		</property>
+			<effect_group name="E30 BluePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="E30 GreyPlaceable">
+			<property name="CustomIcon" value="E30 Grey logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 GreyPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Grey.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Grey"/>
+		</property>
+			<effect_group name="E30 GreyPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="E30 PurplePlaceable">
+			<property name="CustomIcon" value="E30 Purple logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 PurplePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Purple.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Purple"/>
+		</property>
+			<effect_group name="E30 PurplePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="E30 GreenPlaceable">
+			<property name="CustomIcon" value="E30 Green logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 GreenPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Green.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Green"/>
+		</property>
+			<effect_group name="E30 GreenPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="E30 OrangePlaceable">
+			<property name="CustomIcon" value="E30 Orange logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 OrangePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Orange.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Orange"/>
+		</property>
+			<effect_group name="E30 OrangePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="E30 PinkPlaceable">
+			<property name="CustomIcon" value="E30 Pink logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 PinkPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Pink.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Pink"/>
+		</property>
+			<effect_group name="E30 PinkPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	<item name="E30 CyanPlaceable">
+			<property name="CustomIcon" value="E30 Cyan logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="E30 CyanPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/E30 Cyan.unity3d?e30"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="E30 Cyan"/>
+		</property>
+			<effect_group name="E30 CyanPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+
+	</append>
+</configs>

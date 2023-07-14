@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+LBX_Coop,Blocks,block,,,Chicken Coop Bin
+LBX_Coop_Desc,Blocks,block,,,"Generate your own eggs and feathers!\n\nObtained from Workbench."
+LBX_Coop_Full,Blocks,block,,,Full Chicken Coop Bin

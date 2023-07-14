@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Gt 500,vehicles,vehicle,new, Gt 500,,,,,
+Gt 500Placeable,vehicles,item,EnChanged, Gt 500,,,,,
+Gt 500PlaceableDesc,vehicles,item,EnChanged,RangerDanger's custom Gt 500.,,,,,

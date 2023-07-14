@@ -1,0 +1,46 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Black,vehicles,vehicle,new, Supra Black,,,,,
+Supra BlackPlaceable,vehicles,item,EnChanged, Supra Black,,,,,
+Supra BlackPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Red,vehicles,vehicle,new, Supra Red,,,,,
+Supra RedPlaceable,vehicles,item,EnChanged, Supra Red,,,,,
+Supra RedPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Blue,vehicles,vehicle,new, Supra Blue,,,,,
+Supra BluePlaceable,vehicles,item,EnChanged, Supra Blue,,,,,
+Supra BluePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra White,vehicles,vehicle,new, Supra White,,,,,
+Supra WhitePlaceable,vehicles,item,EnChanged, Supra White,,,,,
+Supra WhitePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Purple,vehicles,vehicle,new, Supra Purple,,,,,
+Supra PurplePlaceable,vehicles,item,EnChanged, Supra Purple,,,,,
+Supra PurplePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Green,vehicles,vehicle,new, Supra Green,,,,,
+Supra GreenPlaceable,vehicles,item,EnChanged, Supra Green,,,,,
+Supra GreenPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Orange,vehicles,vehicle,new, Supra Orange,,,,,
+Supra OrangePlaceable,vehicles,item,EnChanged, Supra Orange,,,,,
+Supra OrangePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Yellow,vehicles,vehicle,new, Supra Yellow,,,,,
+Supra YellowPlaceable,vehicles,item,EnChanged, Supra Yellow,,,,,
+Supra YellowPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+Supra Cyan,vehicles,vehicle,new, Supra Cyan,,,,,
+Supra CyanPlaceable,vehicles,item,EnChanged, Supra Cyan,,,,,
+Supra CyanPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

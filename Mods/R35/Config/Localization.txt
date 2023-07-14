@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+R35,vehicles,vehicle,new, R35,,,,,
+R35Placeable,vehicles,item,EnChanged, R35,,,,,
+R35PlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

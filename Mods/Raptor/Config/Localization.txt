@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Raptor,vehicles,vehicle,new, Raptor,,,,,
+RaptorPlaceable,vehicles,item,EnChanged, Raptor,,,,,
+RaptorPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

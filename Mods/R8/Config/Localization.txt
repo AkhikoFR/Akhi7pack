@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+R8,vehicles,vehicle,new, R8,,,,,
+R8Placeable,vehicles,item,EnChanged, R8,,,,,
+R8PlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

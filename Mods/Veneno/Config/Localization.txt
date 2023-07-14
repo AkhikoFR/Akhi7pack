@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Veneno,vehicles,vehicle,new, Veneno,,,,,
+VenenoPlaceable,vehicles,item,EnChanged, Veneno,,,,,
+VenenoPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

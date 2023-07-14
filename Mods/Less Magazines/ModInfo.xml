@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+	<xml>
+	  <Name value="LessMagazines" />
+	  <Author value="Meatsack5001" />
+	  <Description value="Reduce the magazine requirement to level up skills" />
+	  <DisplayName value="LessMagazines" />
+	  <Website value="" />
+	  <Version value="21.0.0.1" />
+	</xml>

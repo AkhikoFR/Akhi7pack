@@ -1,0 +1,28 @@
+<configs>
+	<!-- STONE -->
+	<set xpath="/blocks/block[@name='terrStone']/drop[@event='Harvest']/@count">18</set>
+	<!-- DIRT -->
+	<set xpath="/blocks/block[@name='terrDirt']/drop[@event='Harvest']/@count">7</set>
+	<!-- GRAVEL -->
+	<set xpath="/blocks/block[@name='terrGravel']/drop[@event='Harvest' and @name='resourceCrushedSand']/@count">3</set>
+	<set xpath="/blocks/block[@name='terrGravel']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">3</set>
+	<!-- ASPHALT - NEW MATERIAL -->
+	<set xpath="/blocks/block[@name='terrAsphalt']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">9</set>
+	<set xpath="/blocks/block[@name='terrAsphalt']/property[@name='MaxDamage']/@value">850</set>
+
+	<!-- FOREST -->
+	<set xpath="/blocks/block[@name='terrForestGround']/drop[@event='Harvest' and @name='resourceClayLump']/@count">7</set>
+	<setattribute xpath="/blocks/block[@name='terrForestGround']/drop[@event='Harvest' and @name='resourceYuccaFibers']" name="prob">0.33</setattribute>
+	<!-- BURTN FOREST -->
+	<set xpath="/blocks/block[@name='terrBurntForestGround']/drop[@event='Harvest' and @name='resourceClayLump']/@count">7</set>
+	<!-- DESERT -->
+	<set xpath="/blocks/block[@name='terrDesertGround']/drop[@event='Harvest' and @name='resourceCrushedSand']/@count">3</set>
+	<set xpath="/blocks/block[@name='terrDesertGround']/drop[@event='Harvest' and @name='resourceClayLump']/@count">3</set>
+	<set xpath="/blocks/block[@name='terrSand']/drop[@event='Harvest' and @name='resourceCrushedSand']/@count">4</set>
+	<setattribute xpath="/blocks/block[@name='terrSand']/drop[@event='Harvest' and @name='resourceClayLump']" name="prob">0.33</setattribute>
+	<!-- SNOW -->
+	<set xpath="/blocks/block[@name='terrSnow']/drop[@event='Harvest' and @name='resourceSnowBall']/@count">4</set>
+	<!-- WASTELAND -->
+	<set xpath="/blocks/block[@name='terrDestroyedStone']/drop[@event='Harvest' and @name='resourceCrushedSand']/@count">1</set>
+	<set xpath="/blocks/block[@name='terrDestroyedStone']/drop[@event='Harvest' and @name='resourceRockSmall']/@count">4</set>
+</configs>

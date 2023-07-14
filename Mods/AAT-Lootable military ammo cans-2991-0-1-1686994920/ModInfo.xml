@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="lootammo" />
+		<Description value="lootammo" />
+		<Author value="Erik3227" />
+		<Version value="1.0" compat="21" />
+		<Website value="" />
+	</ModInfo>
+</xml>

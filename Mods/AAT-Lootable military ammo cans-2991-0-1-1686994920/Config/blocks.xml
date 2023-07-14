@@ -1,0 +1,49 @@
+<blocks defaultDescriptionKey="creativeMenuBlockGroupDesc">
+<append xpath="/blocks">
+
+
+<block name="palletCartonMilitaryBase">
+	<property name="CreativeMode" value="Player"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryBasePrefab"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<drop event="Harvest" name="resourceScrapIron" count="5,10" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B278"/>
+	<property name="SortOrder2" value="0500"/>
+	<property name="FilterTags" value="MC_building,SC_construction,SC_decor,A21_NEW"/>
+			<property name="Class" value="Loot"/>
+	<property name="LootList" value="munitions"/>
+</block>
+
+<block name="palletCartonMilitaryCap">
+	<property name="Extends" value="palletCartonMilitaryBase"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryCapPrefab"/>
+	<property name="SortOrder2" value="0501"/>
+			<property name="Class" value="Loot"/>
+	<property name="LootList" value="munitions"/>
+</block>
+
+<block name="palletCartonMilitaryTile">
+	<property name="Extends" value="palletCartonMilitaryBase"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryTilePrefab"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="SortOrder2" value="0502"/>
+			<property name="Class" value="Loot"/>
+	<property name="LootList" value="munitions"/>
+</block>
+
+<block name="palletCartonMilitaryTileCovered">
+	<property name="Extends" value="palletCartonMilitaryBase"/>
+	<property name="Model" value="Entities/Industrial/palletCartonMilitaryTileCoveredPrefab"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="2,4" tag="allHarvest"/>
+	<property name="SortOrder2" value="0503"/>
+			<property name="Class" value="Loot"/>
+	<property name="LootList" value="munitions"/>
+</block>
+</append>
+</blocks>

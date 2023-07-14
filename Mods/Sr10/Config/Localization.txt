@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Sr10,vehicles,vehicle,new, Sr10,,,,,
+Sr10Placeable,vehicles,item,EnChanged, Sr10,,,,,
+Sr10PlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

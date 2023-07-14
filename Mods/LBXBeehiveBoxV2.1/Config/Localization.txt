@@ -1,0 +1,4 @@
+Key,File,Type,UsedInMainMenu,NoTranslate,english
+LBX_BeehiveBox,Blocks,block,,,Beehive Box
+LBX_BeehiveBox_Desc,Blocks,block,,,"Generate your own healing honey!\n\nObtained by the workbench."
+LBX_BeehiveBox_Full,Blocks,block,,,Full Beehive Box

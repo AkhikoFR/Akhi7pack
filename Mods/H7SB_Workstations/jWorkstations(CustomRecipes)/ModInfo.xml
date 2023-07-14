@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="jWorkstations(CustomRecipes)"/>
+    <DisplayName value="jWorkstations(CustomRecipes)" />
+    <Version value="1.0" />
+    <Description value="This is a hook to add custom recipes to smoker and toaster."/>
+    <Author value="Eihwaz" />
+    <Website value="https://linktr.ee/eihwazgeht" />
+</xml>

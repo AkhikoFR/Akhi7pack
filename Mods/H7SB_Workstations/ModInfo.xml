@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="H7SB_Workstations"/>
+    <DisplayName value="H7SB Workstations" />
+    <Version value="21.0" />
+    <Description value="Contains additional server side workstations and kitchen blocks." />
+    <Author value="Eihwaz" />
+    <Website value="https://linktr.ee/eihwazgeht" />
+</xml>

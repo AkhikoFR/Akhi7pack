@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Evo,vehicles,vehicle,new, Evo,,,,,
+EvoPlaceable,vehicles,item,EnChanged, Evo,,,,,
+EvoPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

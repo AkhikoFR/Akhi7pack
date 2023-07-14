@@ -1,0 +1,63 @@
+<!-- - - - - - - - - - - -
+#########################
+###  H7SB Workstation  ##
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de>
+<remove xpath="/recipes/recipe[@name='forge']"/>
+<remove xpath="/recipes/recipe[@name='chemistryStation']"/>
+<append xpath="/recipes" >
+	<recipe name="H7SB_Forge_Helper" count="1" tags="learnable">
+		<ingredient name="resourceRockSmall" count="48"/>
+		<ingredient name="resourceClayLump" count="64"/>
+		<ingredient name="resourceLeather" count="12"/>
+		<ingredient name="resourceDuctTape" count="3"/>
+		<ingredient name="resourceMetalPipe" count="3"/>
+	</recipe>
+	<recipe name="H7SB_ChemistryStation_Helper" count="1" craft_area="workbench" tags="learnable">
+		<ingredient name="toolBeaker" count="1"/>
+		<ingredient name="resourceForgedIron" count="100"/>
+		<ingredient name="toolCookingPot" count="3"/>
+		<ingredient name="resourceMetalPipe" count="32"/>
+		<ingredient name="resourceAcid" count="6"/>
+	</recipe>
+</append>
+
+<remove xpath="/recipes/recipe[@name='drinkYuccaJuiceSmoothie']"/>
+<append xpath="/recipes" >
+	<recipe name="H7SB_Kitchen_Helper" count="1" craft_area="workbench">
+		<ingredient name="toolCookingPot" count="2"/>
+		<ingredient name="resourceElectricParts" count="16"/>
+		<ingredient name="resourceMechanicalParts" count="21"/>
+		<ingredient name="resourceForgedIron" count="32"/>
+	</recipe>
+	<recipe name="h7sb_foodCornBreadToasted" count="1" craft_time="6" craft_area="toaster">
+		<ingredient name="foodCornBread" count="1"/>
+	</recipe>
+	<recipe name="h7sb_foodShamSandwichToasted" count="1" craft_time="6" craft_area="toaster">
+		<ingredient name="foodShamSandwich" count="1"/>
+	</recipe>
+	<recipe name="h7sb_foodTunaFishGravyToastToasted" count="1" craft_time="6" craft_area="toaster">
+		<ingredient name="foodTunaFishGravyToast" count="1"/>
+	</recipe>
+	<recipe name="h7sb_foodSmokedMeat" count="1" craft_time="180" craft_tool="toolCookingGrill" craft_area="smoker">
+		<ingredient name="foodRawMeat" count="1"/>
+	</recipe>
+	<recipe name="resourceSnowBall" count="3" craft_area="iceMachine" craft_time="60">
+		<ingredient name="drinkJarBoiledWater" count="1"/>
+	</recipe>
+	<recipe name="drinkJarRiverWater" count="1" craft_area="campfire" tags="perkMasterChef">
+		<ingredient name="resourceSnowBall" count="6"/>
+	</recipe>
+	<recipe name="drinkYuccaJuiceSmoothie" count="1" tags="perkMasterChef,learnable">
+		<ingredient name="foodCropYuccaFruit" count="4"/>
+		<ingredient name="foodCropBlueberries" count="4"/>
+		<ingredient name="resourceSnowBall" count="6"/>
+	</recipe>
+</append>
+</eihwaz.de>

@@ -1,0 +1,23 @@
+<configs>
+
+	<append xpath="/items">
+	<item name="458Placeable">
+			<property name="CustomIcon" value="458 logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="458PlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/458.unity3d?458"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="458"/>
+		</property>
+			<effect_group name="458Placeable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	</append>
+</configs>

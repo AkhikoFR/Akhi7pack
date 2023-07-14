@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xml>
+  <ModInfo>
+    <Name value="Mod Manager SMXmenu Support" />
+    <Description value="Add-on to support SMXmenu." />
+    <Author value="FilUnderscore" />
+    <Version value="1.0.0" />
+    <Website value="https://github.com/FilUnderscore/ModManager" />
+  </ModInfo>
+</xml>

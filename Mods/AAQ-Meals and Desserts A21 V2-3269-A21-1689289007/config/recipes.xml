@@ -1,0 +1,336 @@
+<modpreppers>
+
+	<append xpath="recipes">
+
+<recipe name="Aguachile M1" count="15" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Antojitos M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="foodCanBeef" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Birria De Chivo M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="foodCanBeef" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Birthday Ice Cream Cone M1" count="1">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Blue Ice Cream M1" count="1">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Boiled Chicken M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Burritos M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="foodCanBeef" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Caldo Azteca M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Caldo De Queso M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Caramel Pancakes M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="10"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Carnitas M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Ceviche M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="3"/>
+</recipe>
+
+<recipe name="Cherry Cookie Ice Cream M1" count="1">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Chicken and Vegetable Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="15"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Chicken Nuggets and Fries M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="foodCornMeal" count="2"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="5"/>
+</recipe>
+
+<recipe name="Chilaquiles M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="2"/>
+	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Chile en Nogada M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="3"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Chocolate Ice Cream M1" count="1">
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Cotton Candy Ice Cream M1" count="1">
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Discada M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="2"/>
+	<ingredient name="resourceYuccaFibers" count="2"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Enchilada M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="6"/>
+	<ingredient name="resourceYuccaFibers" count="2"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Fajitas M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="5"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Fied Fish Nuggets M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Fish Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCanTuna" count="2"/>
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
+</recipe>
+
+<recipe name="Flautas M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="6"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Flautas with Guacamole M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="10"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="4"/>
+</recipe>
+
+<recipe name="Flautas with Guacamole M2" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="8"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Fried Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="4"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Fried Potatos M1" count="5" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="8"/>
+	<ingredient name="resourceAnimalFat" count="6"/>
+</recipe>
+
+<recipe name="Frijoles Puercos M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="2"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Fruit Ice Cream M1" count="1">
+	<ingredient name="drinkJarBoiledWater" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Gorditas M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="foodRawMeat" count="2"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Huaraches M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Huevos Rancheros M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodEgg" count="1"/>
+	<ingredient name="foodCornMeal" count="4"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+</recipe>
+
+<recipe name="Ice Cream M2" count="1">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Lollipop Swirl Ice Cream M1" count="1">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Menuo M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+</recipe>
+
+<recipe name="Mint Cookie Ice Cream Cone M1" count="1">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Mushrooms Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropMushrooms" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="6"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Mushrooms Dish M2" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropMushrooms" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="4"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Mushrooms Dish M3" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropMushrooms" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Pipian M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+</recipe>
+
+<recipe name="Ribs Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="6"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Rice Cheese Fish Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCanTuna" count="1"/>
+	<ingredient name="resourceYuccaFibers" count="4"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Rice Cheese Meat Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Rice Cheese Meat Dish M2" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="4"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Rice Cheese Meat Dish M3" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="4"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Sandwich m1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="4"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Sausage Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="4"/>
+	<ingredient name="foodRawMeat" count="2"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Sausage M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCropPotato" count="1"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Sopes M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="2"/>
+	<ingredient name="foodCornMeal" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Steak and Rice Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="3"/>
+</recipe>
+
+<recipe name="Sushi Dish M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCanSalmon" count="1"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+</recipe>
+
+<recipe name="Sushi Dish M2" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCanSalmon" count="1"/>
+	<ingredient name="resourceAnimalFat" count="2"/>
+</recipe>
+
+<recipe name="Tacos al pastor M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceYuccaFibers" count="3"/>
+	<ingredient name="foodRawMeat" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+
+<recipe name="Torta Ahogada M1" count="1" craft_area="campfire" craft_tool="toolCookingGrill" tags="perkMasterChef,perkChefBoiledWater,boiledWater">
+	<ingredient name="foodCornMeal" count="3"/>
+	<ingredient name="resourceYuccaFibers" count="2"/>
+	<ingredient name="foodCanChili" count="1"/>
+	<ingredient name="resourceAnimalFat" count="1"/>
+</recipe>
+	</append>  
+
+</modpreppers>

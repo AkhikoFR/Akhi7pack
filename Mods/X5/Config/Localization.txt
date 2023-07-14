@@ -1,0 +1,46 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Blue,vehicles,vehicle,new, X5 Blue,,,,,
+X5 BluePlaceable,vehicles,item,EnChanged, X5 Blue,,,,,
+X5 BluePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Red,vehicles,vehicle,new, X5 Red,,,,,
+X5 RedPlaceable,vehicles,item,EnChanged, X5 Red,,,,,
+X5 RedPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 White,vehicles,vehicle,new, X5 White,,,,,
+X5 WhitePlaceable,vehicles,item,EnChanged, X5 White,,,,,
+X5 WhitePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Yellow,vehicles,vehicle,new, X5 Yellow,,,,,
+X5 YellowPlaceable,vehicles,item,EnChanged, X5 Yellow,,,,,
+X5 YellowPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Green,vehicles,vehicle,new, X5 Green,,,,,
+X5 GreenPlaceable,vehicles,item,EnChanged, X5 Green,,,,,
+X5 GreenPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Purple,vehicles,vehicle,new, X5 Purple,,,,,
+X5 PurplePlaceable,vehicles,item,EnChanged, X5 Purple,,,,,
+X5 PurplePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Black,vehicles,vehicle,new, X5 Black,,,,,
+X5 BlackPlaceable,vehicles,item,EnChanged, X5 Black,,,,,
+X5 BlackPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Orange,vehicles,vehicle,new, X5 Orange,,,,,
+X5 OrangePlaceable,vehicles,item,EnChanged, X5 Orange,,,,,
+X5 OrangePlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,
+
+<!-- ###### VEHICLE NEW ###### -->
+X5 Cyan,vehicles,vehicle,new, X5 Cyan,,,,,
+X5 CyanPlaceable,vehicles,item,EnChanged, X5 Cyan,,,,,
+X5 CyanPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

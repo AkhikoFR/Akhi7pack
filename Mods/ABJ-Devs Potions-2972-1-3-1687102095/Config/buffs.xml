@@ -1,0 +1,150 @@
+<Twitch.tv.DEV__GANG>	
+<append xpath="/buffs">
+
+<buff name="bufffixbone" icon="ui_game_symbol_Fixbone" description_key="bufffixboneDesc">
+<stack_type value="ignore"/>
+<duration value="10"/>
+<display_value value=".legHurtDurationDisplay"/><display_value_format value="time"/>
+
+<effect_group>
+<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="bufffixbone"/>
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffLegBroken"/>
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffArmBroken"/>
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffArmSprained"/>
+<triggered_effect trigger="onSelfBuffStart" action="RemoveBuff" buff="buffLegSprained"/>
+</effect_group>
+</buff>
+
+<buff name="buffhealingpotion1" icon="ui_game_symbol_Healthpotion1" description_key="buffhealingpotion1Desc">
+<stack_type value="ignore"/>
+<duration value="10"/>
+<display_value value=".legHurtDurationDisplay"/><display_value_format value="time"/>
+
+<effect_group>
+<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffhealingpotion1"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="15"/>
+</effect_group>
+</buff>
+
+<buff name="buffhealingpotion2" icon="ui_game_symbol_Healthpotion2" description_key="buffhealingpotion2Desc">
+<stack_type value="ignore"/>
+<duration value="10"/>
+<display_value value=".legHurtDurationDisplay"/><display_value_format value="time"/>
+
+<effect_group>
+<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffhealingpotion2"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="30"/>
+</effect_group>
+</buff>
+
+<buff name="buffhealingpotion3" icon="ui_game_symbol_Healthpotion3" description_key="buffhealingpotion3Desc">
+<stack_type value="ignore"/>
+<duration value="10"/>
+<display_value value=".legHurtDurationDisplay"/><display_value_format value="time"/>
+
+<effect_group>
+<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffhealingpotion3"/>
+<triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyStats" stat="Health" operation="add" value="50"/>
+</effect_group>
+</buff>
+
+<buff name="buffstoneskinpotion1" icon="ui_game_symbol_Stonepotion1" description_key="buffStoneskinpotion1Desc" name_key="This potion will mitigate 50% of damage">
+		<stack_type value="ignore"/>
+		<display_value value=".buffstoneskinpotion1Display"/><display_value_format value="time"/>
+<effect_group>
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffstoneskinpotion1" operation="set" value="60"/>
+</effect_group>
+<effect_group name="DisplayDuration">
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffstoneskinpotion1" operation="add" value="-1" />
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffstoneskinpotion1">
+      <requirement name="CVarCompare" cvar="$buffstoneskinpotion1" operation="LTE" value="0" />
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffstoneskinpotion1Display" operation="set" value="@$buffstoneskinpotion1"/>
+    <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffstoneskinpotion1" operation="set" value="0" />
+</effect_group>
+<effect_group>
+<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffstoneskinpotion1"/>
+<passive_effect name="GeneralDamageResist" operation="base_add" value="1.0"/>
+</effect_group>
+</buff>
+
+<buff name="buffStoneskinpotion2" icon="ui_game_symbol_Stonepotion2" description_key="buffStoneskinpotion2Desc" name_key="This potion will mitigate 100% of damage">
+		<stack_type value="ignore"/>
+		<display_value value=".buffStoneskinpotion2Display"/><display_value_format value="time"/>
+<effect_group>
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffStoneskinpotion2" operation="set" value="120"/>
+</effect_group>
+<effect_group name="DisplayDuration">
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffStoneskinpotion2" operation="add" value="-1" />
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffStoneskinpotion2">
+      <requirement name="CVarCompare" cvar="$buffStoneskinpotion2" operation="LTE" value="0" />
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffStoneskinpotion2Display" operation="set" value="@$buffStoneskinpotion2"/>
+    <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffStoneskinpotion2" operation="set" value="0" />
+</effect_group>
+<effect_group>
+<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffStoneskinpotion2"/>
+<passive_effect name="GeneralDamageResist" operation="base_add" value="1.0"/>
+</effect_group>
+</buff>
+
+<buff name="buffPpotion3" icon="ui_game_symbol_Stonepotion3" description_key="buffStoneskinpotion3Desc" name_key="This potion will mitigate 150% of damage">
+		<stack_type value="ignore"/>
+		<display_value value=".buffPpotion3Display"/><display_value_format value="time"/>
+<effect_group>
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffPpotion3" operation="set" value="180"/>
+</effect_group><effect_group name="DisplayDuration">
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffPpotion3" operation="add" value="-1" />
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPpotion3">
+      <requirement name="CVarCompare" cvar="$buffPpotion3" operation="LTE" value="0" />
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffPpotion3Display" operation="set" value="@$buffPpotion3"/>
+    <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffPpotion3" operation="set" value="0" />
+</effect_group>
+<effect_group>
+<passive_effect name="BuffBlink" operation="base_set" value="2" duration="0,3" tags="buffPpotion3"/>
+<passive_effect name="GeneralDamageResist" operation="base_add" value="1.0"/>
+</effect_group>
+</buff>
+
+<buff name="buffPlogging" icon="ui_game_symbol_woodharvestp" description_key="buffPloggingDesc" name_key="This potion will Increase Wood and Ore Harvest by 25%">
+		<stack_type value="ignore"/>
+		<display_value value=".buffPloggingDisplay"/><display_value_format value="time"/>
+<effect_group>
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffPlogging" operation="set" value="1800"/>
+</effect_group><effect_group name="DisplayDuration">
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffPlogging" operation="add" value="-1" />
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPlogging">
+      <requirement name="CVarCompare" cvar="$buffPlogging" operation="LTE" value="0" />
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffPloggingDisplay" operation="set" value="@$buffPlogging"/>
+    <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffPlogging" operation="set" value="0" />
+</effect_group>
+<effect_group>
+			<passive_effect name="HarvestCount" operation="perc_add" value="5.0" tags="oreWoodHarvest"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="-.05" tags="Harvesting"/>
+</effect_group>
+</buff>
+
+<buff name="buffPSalvage" icon="ui_game_symbol_metalharvest" description_key="buffPSalvageDesc" name_key="This potion will Increase Salvage Harvest by 25%">
+		<stack_type value="ignore"/>
+		<display_value value=".buffPSalvageDisplay"/><display_value_format value="time"/>
+<effect_group>
+    <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffPSalvage" operation="set" value="1800"/>
+</effect_group><effect_group name="DisplayDuration">
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffPSalvage" operation="add" value="-1" />
+    <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffPSalvage">
+      <requirement name="CVarCompare" cvar="$buffPSalvage" operation="LTE" value="0" />
+    </triggered_effect>
+    <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffPSalvageDisplay" operation="set" value="@$buffPSalvage"/>
+    <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffPSalvage" operation="set" value="0" />
+</effect_group>
+<effect_group>
+			<passive_effect name="HarvestCount" operation="perc_add" value="5.0" tags="salvageHarvest"/>
+			<passive_effect name="PlayerExpGain" operation="perc_add" value="-.05" tags="Harvesting"/>
+</effect_group>
+</buff>
+
+
+</append>
+</Twitch.tv.DEV__GANG>

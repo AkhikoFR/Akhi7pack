@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<Name value="AeyosTerraformingExperienceAlpha21" />
+	<DisplayName value="Aeyos's Terraforming Experience - Alpha 21" />
+	<Description value="Changes a few values from mining and voxel destruction so you don't repeatedly hit dirt/stone/sand over and over to make way for a construction project. Only changes experience and resources gained from: Topsoil, dirt, sand, snow, bricks and stone." />
+	<Author value="Aeyos" />
+	<Version value="1.0" />
+	<Website value="" />
+</xml>

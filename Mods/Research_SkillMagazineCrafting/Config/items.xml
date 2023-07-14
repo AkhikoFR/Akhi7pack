@@ -1,0 +1,45 @@
+<configs>
+
+	<append xpath="/items">
+
+		<!-- Research Data Resource -->
+		<item name="resourceResearchData">
+			<property name="CustomIcon" value="resourceResearchData"/>
+			<property name="HoldType" value="31"/>
+			<property name="Tags" value="junk"/>
+			<property name="Meshfile" value="@:Other/Items/Misc/bookPrefab.prefab"/>
+			<property name="DropMeshfile" value="@:Other/Items/Misc/sack_droppedPrefab.prefab"/>
+			<property name="Material" value="MresourceResearchData"/>
+			<property name="Weight" value="1"/>
+			<property name="Stacknumber" value="500"/>
+			<property name="EconomicValue" value="50"/>
+			<property name="Group" value="Resources"/>
+			<property name="CraftingIngredientTime" value=".5"/>
+		</item>
+
+	</append>
+
+
+	<!-- Change scrap resource to Research Data -->
+
+	<!-- *** RECIPES -->
+	<append xpath="/items/item[@name='schematicNoQualityRecipeMaster']">
+		<property name="Weight" value="4"/>
+	</append>
+
+	<!-- *** SCHEMATICS -->
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Material']/@value">MresourceResearchData</set>
+	<set xpath="/items/item[@name='schematicMaster']/property[@name='Weight']/@value">6</set>
+
+	<!-- *** CRAFTING_SKILL_MAGAZINES -->
+	<append xpath="/items/item[@name='masterSkillMagazine']">
+		<property name="Weight" value="7"/>
+	</append>
+
+	<!-- *** SKILL_BOOKS -->
+	<append xpath="/items/item[@name='bookFiremansAlmanacHeat']">
+		<property name="Weight" value="10"/>
+	</append>
+	
+
+</configs>

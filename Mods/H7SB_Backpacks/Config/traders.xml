@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+##### H7SB Backpacks ####
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <remove xpath="//item[@name='modArmorStoragePocket']" /> <remove xpath="//item[@name='modArmorDoubleStoragePocket']" /> <remove xpath="//item[@name='modArmorTripleStoragePocket']" /> <remove xpath="//item[@name='modArmorStoragePocketSchematic']" /> <remove xpath="//item[@name='modArmorDoubleStoragePocketSchematic']" /> <append xpath="/traders/trader_item_groups/trader_item_group[@name='clothes']"> <item name="h7sb_smallBackpack" quality="1,1"/> <item name="h7sb_blueBackpack" prob="0.6" quality="1,1"/> <item name="h7sb_orangeBackpack" prob="0.6" quality="1,1"/> <item name="h7sb_largeBackpack" prob="0.3" quality="1,1"/> </append> </eihwaz.de> 

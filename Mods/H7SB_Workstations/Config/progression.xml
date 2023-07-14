@@ -1,0 +1,11 @@
+<!-- - - - - - - - - - - -
+#########################
+###  H7SB Workstation  ##
+### 7 Days to Die Mod ###
+#########################
+####### Eihwaz © ########
+##### www.eihwaz.de #####
+#### CC BY-NC-ND-SA #####
+#########################
+- - - - - - - - - - - -->
+<eihwaz.de> <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='2,5']/unlock_entry[@unlock_tier='2']/@item">H7SB_Forge_Helper</set> <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@level='5,100']/@tags">H7SB_Forge_Helper</set>  <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/display_entry[@unlock_level='50']/unlock_entry[@unlock_tier='1']/@item">H7SB_ChemistryStation_Helper</set> <set xpath="/progression/crafting_skills/crafting_skill[@name='craftingWorkstations']/effect_group/passive_effect[@level='50,100']/@tags">H7SB_ChemistryStation_Helper</set> </eihwaz.de> 

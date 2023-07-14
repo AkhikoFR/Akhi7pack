@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <Name value="A21 Veneno" /> 
+    <DisplayName value="dks Veneno Example" />
+    <Version value="21.0.1.100" compat="A21"/>
+    <Description value="Add dks Veneno to the game" /> <!-- (Optional) More text to show on UIs -->
+    <Author value="You" />
+    <Website value="https://community.7daystodie.com"/> 
+</xml>

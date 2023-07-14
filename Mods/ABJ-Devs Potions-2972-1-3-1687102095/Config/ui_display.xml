@@ -1,0 +1,28 @@
+<Twitch.tv.DEV__GANG>
+
+<append xpath="/ui_display_info/item_display">
+
+<item_display_info display_type="healthpotion" display_group="groupConsumables">
+<display_entry name="foodHealthAmount" title_key="statHealthAmount"/>
+</item_display_info>
+
+<item_display_info display_type="Stoneskinpotion" display_group="groupConsumables">
+			<display_entry name="dHealthLoss" title_key="statHealthLoss" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+</item_display_info>
+
+<item_display_info display_type="woodharvestpotion" display_group="groupConsumables">
+			<display_entry name="dHarvestMining" title_key="statHarvestMining" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+</item_display_info>
+
+<item_display_info display_type="Metalslavage" display_group="groupConsumables">
+			<display_entry name="dHarvestSalvage" title_key="statHarvestSalvage" display_type="Percent" display_leading_plus="true"/>
+			<display_entry name="dDuration" title_key="statDuration" display_type="Time"/>
+</item_display_info>
+
+
+
+</append>
+
+</Twitch.tv.DEV__GANG>

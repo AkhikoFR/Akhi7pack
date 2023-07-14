@@ -1,0 +1,175 @@
+<configs>
+
+	<append xpath="/items">
+	<item name="Italian GranTurismo BlackPlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Black logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo BlackPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Black.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Black"/>
+		</property>
+			<effect_group name="Italian GranTurismo BlackPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	<item name="Italian GranTurismo RedPlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Red logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo RedPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Red.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Red"/>
+		</property>
+			<effect_group name="Italian GranTurismo RedPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Italian GranTurismo BluePlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Blue logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo BluePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Blue.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Blue"/>
+		</property>
+			<effect_group name="Italian GranTurismo BluePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Italian GranTurismo WhitePlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo White logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo WhitePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo White.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo White"/>
+		</property>
+			<effect_group name="Italian GranTurismo WhitePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Italian GranTurismo PurplePlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Purple logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo PurplePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Purple.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Purple"/>
+		</property>
+			<effect_group name="Italian GranTurismo PurplePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Italian GranTurismo GreenPlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Green logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo GreenPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Green.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Green"/>
+		</property>
+			<effect_group name="Italian GranTurismo GreenPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Italian GranTurismo OrangePlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Orange logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo OrangePlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Orange.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Orange"/>
+		</property>
+			<effect_group name="Italian GranTurismo OrangePlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+	<item name="Italian GranTurismo YellowPlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Yellow logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo YellowPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Yellow.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Yellow"/>
+		</property>
+			<effect_group name="Italian GranTurismo YellowPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+	<item name="Italian GranTurismo CyanPlaceable">
+			<property name="CustomIcon" value="Italian GranTurismo Cyan logo"/>
+			<property name="Extends" value="vehicleMinibikePlaceable"/>
+			<property name="Tags" value="vehicle,vengine,vfuel,vlight,vseat,canHaveCosmetic"/> <!-- Choose available mod types -->
+			<property name="DescriptionKey" value="Italian GranTurismo CyanPlaceableDesc"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Italian GranTurismo Cyan.unity3d?Itialian GranTurismo"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="EconomicValue" value="2000"/>
+			<property class="Action1">
+		<property name="Class" value="SpawnVehicle"/>
+		<property name="Vehicle" value="Italian GranTurismo Cyan"/>
+		</property>
+			<effect_group name="Italian GranTurismo CyanPlaceable" tiered="false">
+				<passive_effect name="ModSlots" operation="base_set" value="4"/>
+				<passive_effect name="ModPowerBonus" operation="base_add" value="300" tags="EconomicValue"/>
+				<passive_effect name="DegradationMax" operation="base_set" value="7000"/>
+			</effect_group>
+		</item>
+
+
+	</append>
+</configs>

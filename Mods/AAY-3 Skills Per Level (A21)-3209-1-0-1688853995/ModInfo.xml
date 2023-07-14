@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<xml>
+  <ModInfo>
+    <Name value="More_Skill_Points_Per_Level"/>
+    <Description value="Increase the number of skill points per level."/>
+    <Author value="PsuedoPosse"/>
+    <Version value="1.0"/>
+  </ModInfo>
+</xml>

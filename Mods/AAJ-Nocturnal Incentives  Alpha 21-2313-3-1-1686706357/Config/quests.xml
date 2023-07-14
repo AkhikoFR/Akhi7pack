@@ -1,0 +1,579 @@
+<config>
+	<remove xpath="/quests/quest[@id='tier6_fetch_clear']"/>
+	
+	<set xpath="/quests/quest[@id='tier2_restore_power']/reward[@id='casinoCoin']/@value">3000</set>
+	<set xpath="/quests/quest[@id='tier3_restore_power']/reward[@id='casinoCoin']/@value">5000</set>
+	<set xpath="/quests/quest[@id='tier4_restore_power']/reward[@id='casinoCoin']/@value">7000</set> 
+	
+	<append xpath="/quests">
+	
+		<quest id="tier4_buried_supplies">
+			<property name="name_key" value="quest_tier4_buried_supplies"/>
+			<property name="subtitle_key" value="quest_buried4_supplies_subtitle"/>
+			<property name="description_key" value="quest_buried4_supplies_description"/>
+			<property name="icon" value="ui_game_symbol_treasure"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="quest"/>
+			<property name="offer_key" value="treasure_jack_offer"/>
+			<property name="difficulty" value="hard"/>
+			<property name="difficulty_tier" value="3"/>
+			<property name="statement_key" value="quest_buried4_supplies_statement"/>
+			<property name="response_key" value="quest_buried_supplies_response"/>
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="quest_buried_supplies_completion"/>
+			<property name="shareable" value="true"/>
+
+			<objective type="RandomGotoNPC" phase="1">
+				<property name="completion_distance" value="20"/>
+				<property name="distance" value="250-500"/>
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="start_mode" value="Create"/>
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+				<property name="allowed_start_hour" value="22" />
+				<property name="allowed_end_hour" value="3" />
+			</objective>
+
+			<objective type="StayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="25"/>
+			</objective>
+
+			<objective type="TreasureChest">
+				<property name="phase" value="3" />
+				<property name="block" value="cntBuriedLootStashChestInsecureNight"/>
+				<property name="default_radius" value="9"/>
+				<property name="container_type" value="Supplies"/>
+				<property name="nav_object" value="treasure" />
+				<property name="direct_nav_object" value="treasure_direct" />
+				<property name="blocks_per_reduction" value="10" />
+				<property name="radius_reduction_sound" value="ui_radius_shrink" />
+				<property name="use_nearby" value="true" />
+			</objective>
+
+			<event type="TreasureRadiusReduction" chance="0.75">
+				<action type="SpawnGSEnemy" id="SleeperGSList" value="3-5"/>
+			</event>
+
+			<objective type="FetchFromTreasure">
+				<property name="phase" value="3" />
+				<property name="block" value="cntBuriedLootStashChestInsecureNight"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+			</objective>
+
+			<action type="SpawnGSEnemy" id="SleeperGSList" value="5-7" phase="4"/>
+
+			<objective type="ReturnToNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<reward type="Exp" value="2500"/>
+			<reward type="Item" id="casinoCoin" value="1320"/>
+
+			<reward type="LootItem" id="groupQuestMedical" ischosen="true" isfixed="true" value="3"/>
+			<reward type="LootItem" id="groupQuestWeapons,groupQuestArmor" ischosen="true" isfixed="true" value="3"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="3"/>
+			<reward type="LootItem" id="groupQuestTools" ischosen="true" value="3"/>
+			<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="3"/>
+			<reward type="LootItem" id="groupQuestMods" ischosen="true" value="3"/>
+		</quest>
+		
+		<quest id="tier1_Nocturnal_fetch_clear">
+			<property name="name_key" value="Nocturnal T1 Fetch/Clear"/>
+			<property name="subtitle_key" value="quest_fetch_clear_subtitle"/>
+			<property name="description_key" value="quest_fetch_clear_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="hard"/>
+			<property name="difficulty_tier" value="2"/>
+			<property name="offer_key" value="quest_Nocturnal_fetch_clear_offer"/>
+			<property name="statement_key" value="quest_fetch_clear_statement"/>
+			<property name="response_key" value="quest_fetch_clear_response"/>
+			<property name="login_rally_reset" value="true"/>
+
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="quest_fetch_clear_completion"/>
+
+			<objective type="RandomPOIGoto">
+				<property name="phase" value="1"/>
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+				<property name="allowed_start_hour" value="22" />
+				<property name="allowed_end_hour" value="3" />
+			</objective>
+
+			<objective type="ClearSleepers">
+				<property name="phase" value="3"/>
+				<property name="nav_object" value="sleeper_volume"/>
+			</objective>
+
+			<objective type="FetchFromContainer">
+				<property name="phase" value="3"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+				<property name="default_container" value="cntFetchQuestSatchel"/>
+				<property name="nav_object" value="fetch_container" />
+			</objective>
+
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="25"/>
+			</objective>
+
+			<objective type="ReturnToNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<reward type="Exp" value="4560"/>
+			<reward type="Item" id="casinoCoin" value="1800"/>
+
+			<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="1"/>
+			<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="1"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="1"/>
+			<reward type="LootItem" id="groupQuestTools" ischosen="true" value="1"/>
+			<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="1"/>
+			<reward type="LootItem" id="groupQuestMods" ischosen="true" value="1"/>
+		</quest>
+		
+		<quest id="tier2_Nocturnal_fetch_clear">
+			<property name="name_key" value="Nocturnal T2 Fetch/Clear"/>
+			<property name="subtitle_key" value="quest_fetch_clear_subtitle"/>
+			<property name="description_key" value="quest_fetch_clear_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="hard"/>
+			<property name="difficulty_tier" value="2"/>
+			<property name="offer_key" value="quest_Nocturnal_fetch_clear_offer"/>
+			<property name="statement_key" value="quest_fetch_clear_statement"/>
+			<property name="response_key" value="quest_fetch_clear_response"/>
+			<property name="login_rally_reset" value="true"/>
+
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="quest_fetch_clear_completion"/>
+
+			<objective type="RandomPOIGoto">
+				<property name="phase" value="1"/>
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+				<property name="allowed_start_hour" value="22" />
+				<property name="allowed_end_hour" value="3" />
+			</objective>
+
+			<objective type="ClearSleepers">
+				<property name="phase" value="3"/>
+				<property name="nav_object" value="sleeper_volume"/>
+			</objective>
+
+			<objective type="FetchFromContainer">
+				<property name="phase" value="3"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+				<property name="default_container" value="cntFetchQuestSatchel"/>
+				<property name="nav_object" value="fetch_container" />
+			</objective>
+
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="25"/>
+			</objective>
+
+			<objective type="ReturnToNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<reward type="Exp" value="6060"/>
+			<reward type="Item" id="casinoCoin" value="3000"/>
+
+			<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="2"/>
+			<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="2"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="2"/>
+			<reward type="LootItem" id="groupQuestTools" ischosen="true" value="2"/>
+			<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="2"/>
+			<reward type="LootItem" id="groupQuestMods" ischosen="true" value="2"/>
+		</quest>
+		
+		<quest id="tier3_Nocturnal_fetch_clear">
+			<property name="name_key" value="Nocturnal T4 Fetch/Clear"/>
+			<property name="subtitle_key" value="quest_fetch_clear_subtitle"/>
+			<property name="description_key" value="quest_fetch_clear2_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="hard"/>
+			<property name="difficulty_tier" value="3"/>
+			<property name="offer_key" value="quest_Nocturnal_fetch_clear_offer"/>
+			<property name="statement_key" value="quest_fetch_clear_statement"/>
+			<property name="response_key" value="quest_fetch_clear_response"/>
+			<property name="login_rally_reset" value="true"/>
+
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="quest_fetch_clear_completion"/>
+
+			<objective type="RandomPOIGoto">
+				<property name="phase" value="1"/>
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+				<property name="allowed_start_hour" value="22" />
+				<property name="allowed_end_hour" value="3" />
+			</objective>
+
+			<objective type="ClearSleepers">
+				<property name="phase" value="3"/>
+				<property name="nav_object" value="sleeper_volume"/>
+			</objective>
+
+			<objective type="FetchFromContainer">
+				<property name="phase" value="3"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+				<property name="default_container" value="cntFetchQuestSatchel"/>
+				<property name="nav_object" value="fetch_container" />
+			</objective>
+
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="25"/>
+			</objective>
+
+			<objective type="ReturnToNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<reward type="Exp" value="8050"/>
+			<reward type="Item" id="casinoCoin" value="5000"/>
+
+			<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="3"/>
+			<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="3"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="3"/>
+			<reward type="LootItem" id="groupQuestTools" ischosen="true" value="3"/>
+			<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="3"/>
+			<reward type="LootItem" id="groupQuestMods" ischosen="true" value="3"/>
+		</quest>
+		
+		<quest id="tier4_Nocturnal_fetch_clear">
+			<property name="name_key" value="Nocturnal T4 Fetch/Clear"/>
+			<property name="subtitle_key" value="quest_fetch_clear_subtitle"/>
+			<property name="description_key" value="quest_fetch_clear2_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="hard"/>
+			<property name="difficulty_tier" value="4"/>
+			<property name="offer_key" value="quest_Nocturnal_fetch_clear_offer"/>
+			<property name="statement_key" value="quest_fetch_clear_statement"/>
+			<property name="response_key" value="quest_fetch_clear_response"/>
+			<property name="login_rally_reset" value="true"/>
+
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="quest_fetch_clear_completion"/>
+
+			<objective type="RandomPOIGoto">
+				<property name="phase" value="1"/>
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+				<property name="allowed_start_hour" value="22" />
+				<property name="allowed_end_hour" value="3" />
+			</objective>
+
+			<objective type="ClearSleepers">
+				<property name="phase" value="3"/>
+				<property name="nav_object" value="sleeper_volume"/>
+			</objective>
+
+			<objective type="FetchFromContainer">
+				<property name="phase" value="3"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+				<property name="default_container" value="cntFetchQuestSatchel"/>
+				<property name="nav_object" value="fetch_container" />
+			</objective>
+
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="25"/>
+			</objective>
+
+			<objective type="ReturnToNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<reward type="Exp" value="10000"/>
+			<reward type="Item" id="casinoCoin" value="6000"/>
+
+			<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="4"/>
+			<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="4"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="4"/>
+			<reward type="LootItem" id="groupQuestTools" ischosen="true" value="4"/>
+			<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="4"/>
+			<reward type="LootItem" id="groupQuestMods" ischosen="true" value="4"/>
+		</quest>
+	
+		<quest id="tier5_Nocturnal_fetch_clear">
+			<property name="name_key" value="Nocturnal T5 Fetch/Clear"/>
+			<property name="subtitle_key" value="quest_fetch_clear_subtitle"/>
+			<property name="description_key" value="quest_fetch_clear2_description"/>
+			<property name="icon" value="ui_game_symbol_quest"/>
+			<property name="repeatable" value="true"/>
+			<property name="category_key" value="challenge"/>
+			<property name="difficulty" value="hard"/>
+			<property name="difficulty_tier" value="5"/>
+			<property name="offer_key" value="quest_Nocturnal_fetch_clear_offer"/>
+			<property name="statement_key" value="quest_fetch_clear_statement"/>
+			<property name="response_key" value="quest_fetch_clear_response"/>
+			<property name="login_rally_reset" value="true"/>
+
+			<property name="completiontype" value="TurnIn"/>
+			<property name="completion_key" value="quest_fetch_clear_completion"/>
+
+			<objective type="RandomPOIGoto">
+				<property name="phase" value="1"/>
+				<property name="nav_object" value="quest" />
+			</objective>
+
+			<objective type="RallyPoint">
+				<property name="phase" value="2"/>
+				<property name="nav_object" value="rally" />
+				<property name="allowed_start_hour" value="22" />
+				<property name="allowed_end_hour" value="3" />
+			</objective>
+
+			<objective type="ClearSleepers">
+				<property name="phase" value="3"/>
+				<property name="nav_object" value="sleeper_volume"/>
+			</objective>
+
+			<objective type="FetchFromContainer">
+				<property name="phase" value="3"/>
+				<property name="quest_item_ID" value="1"/>
+				<property name="item_count" value="1"/>
+				<property name="default_container" value="cntFetchQuestSatchel"/>
+				<property name="nav_object" value="fetch_container" />
+			</objective>
+
+			<objective type="POIStayWithin">
+				<property name="phase" value="3"/>
+				<property name="radius" value="25"/>
+			</objective>
+
+			<objective type="ReturnToNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<objective type="InteractWithNPC">
+				<property name="phase" value="4"/>
+				<property name="nav_object" value="return_to_trader" />
+			</objective>
+
+			<reward type="Exp" value="27000"/>
+			<reward type="Item" id="casinoCoin" value="15000"/>
+
+			<reward type="LootItem" id="groupQuestWeapons" ischosen="true" isfixed="true" value="6"/>
+			<reward type="LootItem" id="groupQuestArmor,groupQuestMedical" ischosen="true" isfixed="true" value="6"/>
+			<reward type="LootItem" id="groupQuestAmmo" ischosen="true" value="6"/>
+			<reward type="LootItem" id="groupQuestTools" ischosen="true" value="6"/>
+			<reward type="LootItem" id="groupQuestSchematics" ischosen="true" value="6"/>
+			<reward type="LootItem" id="groupQuestMods" ischosen="true" value="6"/>
+		</quest>
+	
+		<!-- <quest id="challenge_Darkness">
+				<property name="name_key" value="Killing from the Shadows" />
+				<property name="subtitle_key" value="Kill zombies while it is night" />
+				<property name="description_key" value="challenge_KillingfromtheShadows_desc" />
+				<property name="icon" value="ui_game_symbol_XPBoost" />
+				<property name="repeatable" value="true" />
+				<property name="category_key" value="challenge" />
+				<property name="offer_key" value="challenge_KillingfromtheShadows_desc" />
+				<property name="difficulty" value="hard" />
+				<property name="completiontype" value="TurnIn" />
+
+				<objective type="ZombieKill" value="50" phase="1" />
+				<requirement type="Buff" id="buffNightExpBoost" phase="1"/>
+
+				<objective type="InteractWithNPC">
+					<property name="phase" value="2" />
+				</objective>
+				
+				<reward type="Item" id="casinoCoin" value="5000" />			
+		</quest>
+		
+		<quest id="challenge_Darkness2">
+				<property name="name_key" value="Killing from the Shadows" />
+				<property name="subtitle_key" value="Kill Cop zombies while it is night" />
+				<property name="description_key" value="challenge_KillingfromtheShadows2_desc" />
+				<property name="icon" value="ui_game_symbol_XPBoost" />
+				<property name="repeatable" value="true" />
+				<property name="category_key" value="challenge" />
+				<property name="offer_key" value="challenge_KillingfromtheShadows2_desc" />
+				<property name="difficulty" value="hard" />
+				<property name="completiontype" value="TurnIn" />
+
+				<objective type="ZombieKill" id="zombieFatCop" value="20" phase="1" />
+				<requirement type="Buff" id="buffNightExpBoost" phase="1"/>
+
+				<objective type="InteractWithNPC">
+					<property name="phase" value="2" />
+				</objective>
+				
+				<reward type="Item" id="casinoCoin" value="7000" />			
+		</quest>
+		
+		<quest id="challenge_Darkness3">
+				<property name="name_key" value="Killing from the Shadows" />
+				<property name="subtitle_key" value="Kill Demolition zombies while it is night" />
+				<property name="description_key" value="challenge_KillingfromtheShadows3_desc" />
+				<property name="icon" value="ui_game_symbol_XPBoost" />
+				<property name="repeatable" value="true" />
+				<property name="category_key" value="challenge" />
+				<property name="offer_key" value="challenge_KillingfromtheShadows3_desc" />
+				<property name="difficulty" value="hard" />
+				<property name="completiontype" value="TurnIn" />
+
+				<objective type="ZombieKill" id="zombieDemolition" value="10" phase="1" />
+				<requirement type="Buff" id="buffNightExpBoost" phase="1"/>
+
+				<objective type="InteractWithNPC">
+					<property name="phase" value="2" />
+				</objective>
+				
+				<reward type="Item" id="casinoCoin" value="10000" />			
+		</quest>
+		
+		<quest id="challenge_Darkness4">
+				<property name="name_key" value="Killing from the Shadows" />
+				<property name="subtitle_key" value="Kill zombies while it is night" />
+				<property name="description_key" value="challenge_KillingfromtheShadows4_desc" />
+				<property name="icon" value="ui_game_symbol_XPBoost" />
+				<property name="repeatable" value="true" />
+				<property name="category_key" value="challenge" />
+				<property name="offer_key" value="challenge_KillingfromtheShadows4_desc" />
+				<property name="difficulty" value="hard" />
+				<property name="completiontype" value="TurnIn" />
+
+				<objective type="ZombieKill" id="zombieMutated" value="30" phase="1" />
+				<requirement type="Buff" id="buffNightExpBoost" phase="1"/>
+
+				<objective type="InteractWithNPC">
+					<property name="phase" value="2" />
+				</objective>
+				
+				<reward type="Item" id="casinoCoin" value="10000" />			
+		</quest>
+		
+		<quest id="challenge_Darkness5">
+				<property name="name_key" value="Killing from the Shadows" />
+				<property name="subtitle_key" value="Kill zombies while it is night" />
+				<property name="description_key" value="challenge_KillingfromtheShadows5_desc" />
+				<property name="icon" value="ui_game_symbol_XPBoost" />
+				<property name="repeatable" value="true" />
+				<property name="category_key" value="challenge" />
+				<property name="offer_key" value="challenge_KillingfromtheShadows5_desc" />
+				<property name="difficulty" value="hard" />
+				<property name="completiontype" value="TurnIn" />
+
+				<objective type="ZombieKill" id="zombieSpider" value="20" phase="1" />
+				<requirement type="Buff" id="buffNightExpBoost" phase="1"/>
+
+				<objective type="InteractWithNPC">
+					<property name="phase" value="2" />
+				</objective>
+				
+				<reward type="Item" id="casinoCoin" value="3000" />			
+		</quest>
+		
+		<quest id="challenge_Darkness6">
+				<property name="name_key" value="Killing from the Shadows" />
+				<property name="subtitle_key" value="Kill zombies while it is night" />
+				<property name="description_key" value="challenge_KillingfromtheShadows6_desc" />
+				<property name="icon" value="ui_game_symbol_XPBoost" />
+				<property name="repeatable" value="true" />
+				<property name="category_key" value="challenge" />
+				<property name="offer_key" value="challenge_KillingfromtheShadows6_desc" />
+				<property name="difficulty" value="hard" />
+				<property name="completiontype" value="TurnIn" />
+
+				<objective type="ZombieKill" id="ZombieFeralRadiatedGroup" value="20" phase="1" />
+				<requirement type="Buff" id="buffNightExpBoost" phase="1"/>
+
+				<objective type="InteractWithNPC">
+					<property name="phase" value="2" />
+				</objective>
+				
+				<reward type="Item" id="casinoCoin" value="8000" />			
+		</quest>
+		
+		<quest id="challenge_Darkness7">
+				<property name="name_key" value="Killing from the Shadows" />
+				<property name="subtitle_key" value="Kill zombies while it is night" />
+				<property name="description_key" value="challenge_KillingfromtheShadows7_desc" />
+				<property name="icon" value="ui_game_symbol_XPBoost" />
+				<property name="repeatable" value="true" />
+				<property name="category_key" value="challenge" />
+				<property name="offer_key" value="challenge_KillingfromtheShadows7_desc" />
+				<property name="difficulty" value="hard" />
+				<property name="completiontype" value="TurnIn" />
+
+				<objective type="ZombieKill" id="zombieFatHawaiian" value="20" phase="1" />
+				<requirement type="Buff" id="buffNightExpBoost" phase="1"/>
+
+				<objective type="InteractWithNPC">
+					<property name="phase" value="2" />
+				</objective>
+				
+				<reward type="Item" id="casinoCoin" value="6000" />			
+		</quest> -->
+		
+	</append>
+</config>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="Jerseyetr-Bicycles" />
+		<Description value="Bicycles spawn in Dumpsters to help early game progression" />
+		<Author value="Jerseyetr"/>
+		<Version value="2.0.0" />
+		<Website value="https://midnightslayers.rf.gd" />
+	</ModInfo>
+</xml>

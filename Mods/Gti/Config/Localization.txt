@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Gti,vehicles,vehicle,new, Gti,,,,,
+GtiPlaceable,vehicles,item,EnChanged, Gti,,,,,
+GtiPlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

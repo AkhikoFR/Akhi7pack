@@ -1,0 +1,118 @@
+<audio>
+	<append xpath="/Sounds">
+		<SoundDataNode name="feel_alarm1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_alarm1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_beep1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_beep1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_beep2"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_beep2" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_beep3"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_beep3" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_beep4"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_beep4" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_bell1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_bell1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_bell2"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_bell2" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_emergency1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_emergency1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_emergency2"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_emergency2" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_emergency3"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_emergency3" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_fire1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_fire1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_fire2"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_fire2" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_fire3"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_fire3" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_rooster1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_rooster1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_siren1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_siren1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_siren2"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_siren2" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_siren3"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_siren3" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_siren4"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_siren4" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_siren5"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_siren5" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_siren6"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_siren6" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_siren7"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_siren7" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_ship1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_ship1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+
+		<SoundDataNode name="feel_train1"> <AudioSource name="Sounds/AudioSource_VO_Announce"/>
+			<AudioClip ClipName="#@modfolder:Resources/Sounds.unity3d?feel_train1" Loop="true"/>
+			<LocalCrouchVolumeScale value="0.5"/> <CrouchNoiseScale value="0.2"/> <NoiseScale value="1"/> <MaxVoices value="10"/> <MaxRepeatRate value="0"/> 
+		</SoundDataNode>
+	</append>
+</audio>

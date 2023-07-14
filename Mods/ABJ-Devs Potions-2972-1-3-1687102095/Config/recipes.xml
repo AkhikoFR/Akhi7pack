@@ -1,0 +1,58 @@
+<Twitch.tv.DEV__GANG>
+
+<append xpath="/recipes">
+
+<recipe name="FixBrokenBones" count="1" craft_time="120" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceTestosteroneExtract" count="1"/>
+	<ingredient name="resourceBone" count="20"/>
+</recipe>
+
+<recipe name="PotionHealth1" count="1" craft_time="120" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceTestosteroneExtract" count="1"/>
+	<ingredient name="foodRawMeat" count="30"/>
+</recipe>
+
+<recipe name="PotionHealth2" count="1" craft_time="60" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceTestosteroneExtract" count="2"/>
+	<ingredient name="foodRawMeat" count="15"/>
+</recipe>
+
+<recipe name="PotionHealth3" count="1" craft_time="30" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceTestosteroneExtract" count="3"/>
+	<ingredient name="foodRawMeat" count="5"/>
+</recipe>
+
+<recipe name="PotionDamagemitigation1" count="1" craft_time="120" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceScrapIron" count="100"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+
+<recipe name="PotionDamagemitigation2" count="1" craft_time="60" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceScrapIron" count="200"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+
+<recipe name="PotionDamagemitigation3" count="1" craft_time="30" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceScrapIron" count="300"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+
+<recipe name="Potionwoodharvest" count="1" craft_time="30" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceSilverNugget" count="10"/>
+	<ingredient name="resourceGoldNugget" count="5"/>
+	<ingredient name="resourceRawDiamond" count="1"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+
+<recipe name="PotionMetalharvest" count="1" craft_time="30" craft_area="chemistryStation" use_ingredient_modifier="false">
+	<ingredient name="resourceSilverNugget" count="10"/>
+	<ingredient name="resourceGoldNugget" count="5"/>
+	<ingredient name="resourceRawDiamond" count="1"/>
+	<ingredient name="resourceAcid" count="1"/>
+</recipe>
+
+
+
+</append>
+
+</Twitch.tv.DEV__GANG>

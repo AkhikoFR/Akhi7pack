@@ -1,0 +1,142 @@
+<configs>
+	<append xpath="/blocks" >
+		<block name="FeelSpeaker_alarm_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_alarm1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_beep_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_beep1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_beep_2">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_beep2"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_beep_3">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_beep3"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_beep_4">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_beep4"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_bell_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_bell1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_bell_2">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_bell2"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_emergency_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_emergency1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_emergency_2">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_emergency2"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_emergency_3">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_emergency3"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_fire_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_fire1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_fire_2">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_fire2"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_fire_3">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_fire3"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_rooster_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_rooster1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_siren_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_siren1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_siren_2">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_siren2"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_siren_3">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_siren3"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_siren_4">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_siren4"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_siren_5">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_siren5"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_siren_6">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_siren6"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_siren_7">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_siren7"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_ship_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_ship1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+		<block name="FeelSpeaker_train_1">
+			<property name="Extends" value="speaker"/>
+			<property name="PlaySound" value="feel_train1"/>
+			<property name="Model" value="#@modfolder:Resources/Sounds.unity3d?Speaker1Prefab" />
+			<property name="CustomIcon" value="Speaker1Prefab"/>
+		</block>
+	</append>
+</configs>

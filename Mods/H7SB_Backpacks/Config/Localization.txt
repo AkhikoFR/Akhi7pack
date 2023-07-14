@@ -1,0 +1,25 @@
+Key,Context,English,German,French
+
+h7sb_backpackRemove,remove,This item has been removed by the H7SB Backpacks Mod. It is still there to avoid errors but has no effect!,Dieser Gegenstand wurde durch die H7SB Backpacks Mod entfernt. Er ist noch vorhanden um Fehler zu vermeiden aber hat keinen Effekt mehr!,Cet article a été supprimé par le Mod H7SB Backpacks. Il est toujours là pour éviter les erreurs mais n'a plus aucun effet!
+
+perkPackMuleRank1LongDesc,progression,"This ability unlocks additional inventory slots.","Diese Fähigkeit schaltet zusätzliche Inventarplätze frei.","Cette capacité vous débloque emplacements d'inventaire supplémentaires"
+perkPackMuleRank2LongDesc,progression,"This ability unlocks additional inventory slots.","Diese Fähigkeit schaltet zusätzliche Inventarplätze frei.","Cette capacité vous débloque emplacements d'inventaire supplémentaires"
+perkPackMuleRank3LongDesc,progression,"This ability unlocks additional inventory slots.","Diese Fähigkeit schaltet zusätzliche Inventarplätze frei.","Cette capacité vous débloque emplacements d'inventaire supplémentaires"
+perkPackMuleRank4LongDesc,progression,"This ability unlocks additional inventory slots.","Diese Fähigkeit schaltet zusätzliche Inventarplätze frei.","Cette capacité vous débloque emplacements d'inventaire supplémentaires"
+perkPackMuleRank5LongDesc,progression,"This ability unlocks additional inventory slots.","Diese Fähigkeit schaltet zusätzliche Inventarplätze frei.","Cette capacité vous débloque emplacements d'inventaire supplémentaires"
+
+lblEyewear,UI,Accessoire,Accessoire,Accessoire
+lblFace,UI,Back,Rücken,Déplacement
+xuiInventory,UI,H7SB Inventory,H7SB Inventar,H7SB Inventaire
+
+modClothingStoragePocket,itemMods,Small Pocket,Kleine Tasche,Petite Poche
+modClothingStoragePocketDesc,desc,"This pocket mod unlocks additional inventory slots.","Diese Taschen Mod schaltet zusätzliche Inventarplätze frei.","Ce mod de poche débloque emplacements d'inventaire supplémentaires"
+modClothingCargoStoragePocket,itemMods,Large Pocket,Große Tasche,Grande Poche
+modClothingCargoStoragePocketDesc,itemMods,"This pocket mod unlocks more additional inventory slots.","Diese Taschen Mod schaltet mehr zusätzliche Inventarplätze frei.","Ce mod de poche débloque plus emplacements d'inventaire supplémentaires"
+
+h7sb_bumbag,items,Small Bag,Kleiner Beutel,Petit Sac
+h7sb_smallBackpack,items,Bag,Beutel,Sac
+h7sb_blueBackpack,items,Backpack,Rucksack,Sac à Dos
+h7sb_orangeBackpack,items,Backpack,Rucksack,Sac à Dos
+h7sb_largeBackpack,items,Large Backpack,Großer Rucksack,Grand Sac à Dos
+h7sb_backpackDesc,desc,"Equip this item (W) to unlock more inventory slots.","Rüste diesen Gegenstand aus (W) um mehr Inventarplätze freizuschalten.","Equipez cet objet (W) pour débloquer d'avantage d'emplacement d'inventaire."

@@ -1,0 +1,67 @@
+<blocks defaultDescriptionKey="creativeMenuBlockGroupDesc">
+<append xpath="/blocks">
+
+
+<block name="palletBrownBoxesBase">
+	<property name="Material" value="MCardboardLoot"/>
+	<property name="Shape" value="ModelEntity"/>
+	<property name="Model" value="Entities/Industrial/boxesCardboardPalletPrefab"/>
+	<property name="ImposterExchange" value="imposterBlock" param1="149"/>
+	<property name="WaterFlow" value="permitted"/>
+	<property name="Collide" value="sight,movement,melee,bullet,arrow,rocket"/>
+	<property name="Path" value="solid"/>
+	<drop event="Harvest" name="resourcePaper" count="1,3" tag="allHarvest"/>
+	<drop event="Harvest" name="resourceScrapPolymers" count="1,3" tag="allHarvest"/>
+	<drop event="Destroy" count="0"/>
+	<drop event="Fall" name="terrDestroyedWoodDebris" count="1" prob="0.75" stick_chance="1"/>
+	<property name="SortOrder1" value="B278"/>
+	<property name="SortOrder2" value="0000"/>
+	<property name="FilterTags" value="MC_building,SC_commercial,SC_construction,SC_decor"/>
+		<property name="Class" value="Loot"/>
+	<property name="LootList" value="Junk"/>
+
+</block>
+
+
+
+<block name="palletBrownBoxesTile">
+	<property name="Extends" value="palletBrownBoxesBase"/>
+	<property name="Model" value="Entities/Industrial/boxesCardboardTilePrefab"/>
+	<drop event="Harvest" name="resourceWood" count="0" tag="allHarvest"/>
+	<property name="SortOrder2" value="0001"/>
+		<property name="Class" value="Loot"/>
+	<property name="LootList" value="Junk"/>
+
+</block>
+
+<block name="palletBrownBoxesTop">
+	<property name="Extends" value="palletBrownBoxesBase" param1="Path"/>
+	<property name="Model" value="Entities/Industrial/boxesCardboardCapMedPrefab"/>
+	<property name="ImposterExchange" value="imposterHalf" param1="149"/>
+	<property name="ImposterDontBlock" value="true"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<drop event="Harvest" name="resourceWood" count="0" tag="allHarvest"/>
+	<property name="SortOrder2" value="0002"/>
+		<property name="Class" value="Loot"/>
+	<property name="LootList" value="Junk"/>
+</block>
+
+<block name="palletBrownBoxesTopSmall">
+	<property name="Extends" value="palletBrownBoxesTop"/>
+	<property name="Model" value="Entities/Industrial/boxesCardboardCapSmlPrefab"/>
+	<property name="SortOrder2" value="0003"/>
+		<property name="Class" value="Loot"/>
+	<property name="LootList" value="Junk"/>
+</block>
+
+<block name="palletBrownBoxesLoose">
+	<property name="Extends" value="palletBrownBoxesBase" param1="Path"/>
+	<property name="Model" value="Entities/Industrial/boxesCardboardLoosePrefab"/>
+	<property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+	<drop event="Harvest" name="resourceWood" count="0" tag="allHarvest"/>
+	<property name="SortOrder2" value="0004"/>
+		<property name="Class" value="Loot"/>
+	<property name="LootList" value="Junk"/>
+</block>
+</append>
+</blocks>

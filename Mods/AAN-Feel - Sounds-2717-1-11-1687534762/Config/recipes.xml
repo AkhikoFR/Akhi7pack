@@ -1,0 +1,119 @@
+<configs>
+	<append xpath="/recipes" >
+		<recipe name="FeelSpeaker_alarm_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_beep_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_beep_2" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_beep_3" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_beep_4" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_bell_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_bell_2" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_emergency_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_emergency_2" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_emergency_3" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_fire_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_fire_2" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_fire_3" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_rooster_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_siren_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_siren_2" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_siren_3" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_siren_4" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_siren_5" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_siren_6" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_siren_7" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_ship_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+		<recipe name="FeelSpeaker_train_1" count="1" craft_area="workbench" tags="perkAdvancedEngineering,learnable">
+			<ingredient name="resourceElectricParts" count="10"/>
+			<ingredient name="resourceForgedIron" count="5"/>
+			<ingredient name="resourceGlue" count="5"/>
+		</recipe>
+	</append>
+</configs>

@@ -1,0 +1,57 @@
+<xfinalchancex>
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesDowntown']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='SnowZombies']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[contains(@name,'sleeperHordeStageGS')]">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[contains(@name,'scoutHordeStageGS')]">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[contains(@name,'BloodMoonHorde')]">
+    <entity name="zombieDemolition"/>
+  </append>
+
+  <append xpath="/entitygroups/entitygroup[contains(@name,'feralHordeStageGS')]">
+    <entity name="zombieDemolition"/>
+  </append>
+</xfinalchancex>

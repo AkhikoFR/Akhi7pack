@@ -1,0 +1,30 @@
+Key,Source,English,German
+
+H7SB_Forge_Helper,Workstation,Forges,Schmieden
+H7SB_WoodBurningStove_Default,Workstation,Iron Oven,Eisenofen
+H7SB_ChemistryStation_Helper,Workstation,Chemistry Stations,Chemietische
+H7SB_ChemistryStation_small,Workstation,Chemistry Station,Chemietisch
+H7SB_ChemistryStation_medium,Workstation,Chemistry Station,Chemietisch
+H7SB_ChemistryStation_large,Workstation,Chemistry Station,Chemietisch
+
+H7SB_Kitchen_Helper,Workstation,Kitchen Equipment,Küchenausstattung
+H7SB_Stove1,Workstation,Stove,Herd
+H7SB_Stove2,Workstation,Stove,Herd
+H7SB_Microwave1,Workstation,Microwave,Mikrowelle
+H7SB_Microwave2,Workstation,Microwave,Mikrowelle
+H7SB_Grill,Workstation,Grill,Grill
+H7SB_CoffeeMaker1,Workstation,Coffee Maker,Kaffeemaschine
+H7SB_CoffeeMaker2,Workstation,Coffee Maker,Kaffeemaschine
+H7SB_Toaster,Workstation,Toaster,Toaster
+H7SB_IceMachine,Workstation,Ice Machine,Kühltruhe
+IceMachine,Workstation,Ice Machine,Kühltruhe
+H7SB_Smoker,Workstation,Smoker,Räucherofen
+smoker,Workstation,Smoker,Räucherofen
+
+h7sb_foodCornBreadToasted,food,Toasted Corn Bread,Getoastetes Maisbrot
+h7sb_foodShamSandwichToasted,food,Toasted Sandwich,Getoastetes Sandwich
+h7sb_foodTunaFishGravyToastToasted,food,Toasted Tuna Toast,Getoasteter Thunfischtoast
+h7sb_toastedDesc,food,This item has been toasted.,Dieser Gegenstand wurde getoastet.
+
+h7sb_foodSmokedMeat,food,Smoked Meat,Geräuchertes Fleisch
+h7sb_smokedDesc,food,This item has been smoked.,Dieser Gegenstand wurde geräuchert.

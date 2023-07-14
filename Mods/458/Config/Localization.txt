@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+458,vehicles,vehicle,new, 458,,,,,
+458Placeable,vehicles,item,EnChanged, 458,,,,,
+458PlaceableDesc,vehicles,item,EnChanged,A custom vehicle to craft.,,,,,

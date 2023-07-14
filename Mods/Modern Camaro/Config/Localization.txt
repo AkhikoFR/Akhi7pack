@@ -1,0 +1,6 @@
+Key,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+<!-- ###### VEHICLE NEW ###### -->
+Modern Camaro,vehicles,vehicle,new, Modern Camaro,,,,,
+Modern CamaroPlaceable,vehicles,item,EnChanged, Modern Camaro,,,,,
+Modern CamaroPlaceableDesc,vehicles,item,EnChanged,A custom Modern Camaro.,,,,,

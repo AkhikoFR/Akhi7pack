@@ -1,0 +1,10 @@
+<configs>
+	<set xpath="/materials/material[@id='MDesertGround']/property[@name='MaxDamage']/@value">60</set>
+	<set xpath="/materials/material[@id='Mdirt']/property[@name='MaxDamage']/@value">65</set>
+	<set xpath="/materials/material[@id='MforestGround']/property[@name='MaxDamage']/@value">80</set>
+	<set xpath="/materials/material[@id='Mgravel']/property[@name='MaxDamage']/@value">65</set>
+	<set xpath="/materials/material[@id='Mrubble']/property[@name='MaxDamage']/@value">65</set>
+	<set xpath="/materials/material[@id='Msand']/property[@name='MaxDamage']/@value">30</set>
+	<set xpath="/materials/material[@id='Msnow']/property[@name='MaxDamage']/@value">20</set>
+	<set xpath="/materials/material[@id='Mstone']/property[@name='MaxDamage']/@value">165</set>
+</configs>
