@@ -1,0 +1,65 @@
+<configs>
+	<set xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']/MaxRepeatRate/@value">10</set>
+	<set xpath="/Sounds/SoundDataNode[@name='vwheel_bounce']/Noise[@ID='0']/@noise">10</set>
+	<append xpath="/Sounds">
+		<!-- V12 British -->
+		<SoundDataNode name="V12 British_startup">
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="2" noise="11" time="3" muffled_when_crouched="0.5"/>
+			<AudioClip ClipName="#@modfolder:Resources/V12 British.unity3d?startup"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="V12 British_idle">
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="#@modfolder:Resources/V12 British.unity3d?idle" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="0.001"/>
+		</SoundDataNode>
+		<SoundDataNode name="V12 British_accel1">
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="#@modfolder:Resources/V12 British.unity3d?low_off" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="5"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="V12 British_accel2">
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="#@modfolder:Resources/V12 British.unity3d?med_off" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="5"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="V12 British_accel3">
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<Noise ID="3" noise="30" time="3" muffled_when_crouched="0.65" heat_map_strength="0.05" heat_map_time="60"/>
+			<AudioClip ClipName="#@modfolder:Resources/V12 British.unity3d?high_off" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="5"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+		<SoundDataNode name="V12 British_max_speed_lp">
+			<AudioSource name="Sounds/AudioSource_Vehicle"/>
+			<AudioClip ClipName="#@modfolder:Resources/V12 British.unity3d?high_on" Loop="true"/>
+			<LocalCrouchVolumeScale value="1.0"/>
+			<CrouchNoiseScale value="0.5"/>
+			<NoiseScale value="1"/>
+			<MaxVoices value="10"/>
+			<MaxRepeatRate value="0.01"/>
+		</SoundDataNode>
+	</append>
+</configs>
