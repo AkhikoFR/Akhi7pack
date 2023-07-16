@@ -52,9 +52,9 @@
             </property>
             <effect_group name="a5UltimateMultiTool">
                 <passive_effect name="EntityDamage" operation="base_set" value="31.8"/>
-                <passive_effect name="BlockDamage" operation="base_set" value="191.3"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="91.3"/>
                 <passive_effect name="AttacksPerMinute" operation="base_set" value="70" tags="perkMiner69r"/>
-                <passive_effect name="StaminaLoss" operation="base_set" value="5" tags="primary"/>
+                <passive_effect name="StaminaLoss" operation="base_set" value="24" tags="primary"/>
                 <passive_effect name="DegradationMax" operation="base_set" value="300,1100" tier="1,6" tags="perkMiner69r"/>
                 <passive_effect name="DegradationPerUse" operation="base_set" value="1" tags="perkMiner69r"/>
                 <passive_effect name="MaxRange" operation="base_set" value="2.6"/>

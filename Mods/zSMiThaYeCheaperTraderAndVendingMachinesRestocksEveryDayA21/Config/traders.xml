@@ -11,9 +11,9 @@
 	<set xpath="/traders/trader_info[@id='8']/@reset_interval">1</set>
 	
 	<!--POI - Drink Vending Machines -->
-	<set xpath="/traders/trader_info[@id='4']/@reset_interval">0,5</set>
+	<set xpath="/traders/trader_info[@id='4']/@reset_interval">1</set>
 	<!--POI - Food and Candy Vending Machines-->
-	<set xpath="/traders/trader_info[@id='10']/@reset_interval">0,5</set>
+	<set xpath="/traders/trader_info[@id='10']/@reset_interval">1</set>
 	
 	<!--Trader Quality and price more favourable-->
 	<set xpath="/traders/@buy_markup">1</set>

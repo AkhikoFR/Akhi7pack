@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configs>
+	<append xpath="/lootcontainers/lootgroup[@name='schematicsToolsRare']">
+        <item name="ultimateMultiToolSchematic"/>
+    </append>
+    <append xpath="lootcontainers/lootgroup[@name='groupQuestTools']">
+        <item name="a5UltimateMultiTool" loot_prob_template="GradeCLoot"/>
+    </append>
+</configs>
