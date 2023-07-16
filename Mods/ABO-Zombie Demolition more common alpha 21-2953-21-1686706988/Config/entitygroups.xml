@@ -1,57 +1,57 @@
 <xfinalchancex>
   <append xpath="/entitygroups/entitygroup[@name='ZombiesAll']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.05"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesNight']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.08"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntown']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.05"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesForestDowntownNight']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.08"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesBurntForest']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.25"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesDowntown']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.05"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='SnowZombies']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.10"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesWasteland']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.35"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandNight']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.35"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[@name='ZombiesWastelandDowntown']">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.20"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[contains(@name,'sleeperHordeStageGS')]">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.35"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[contains(@name,'scoutHordeStageGS')]">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.50"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[contains(@name,'BloodMoonHorde')]">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.60"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[contains(@name,'feralHordeStageGS')]">
-    <entity name="zombieDemolition"/>
+    <entity name="zombieDemolition" prob="0.70"/>
   </append>
 </xfinalchancex>

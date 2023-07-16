@@ -42,7 +42,7 @@
 		</entitygroup>
 		
 		<entitygroup name="guppyVultureBurnt">
-			guppyVultureBurnt
+			guppyVultureBurnt, 0.1
 		</entitygroup>
 	</append>
 

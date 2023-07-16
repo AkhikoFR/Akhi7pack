@@ -1,13 +1,13 @@
 <configs>
 
 	<set xpath="/items/item[@name='harvestingToolsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHarvestingTools" level="3"/></set> <!--Max 100-->
-	<set xpath="/items/item[@name='repairToolsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRepairTools" level="2"/></set> <!--Max 50-->
-	<set xpath="/items/item[@name='salvageToolsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="2"/></set> <!--Max 75-->
-	<set xpath="/items/item[@name='knucklesSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingKnuckles" level="2"/></set> <!--Max 75-->
-	<set xpath="/items/item[@name='bladesSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBlades" level="2"/></set> <!--Max 75-->
-	<set xpath="/items/item[@name='clubsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingClubs" level="2"/></set> <!--Max 75-->
-	<set xpath="/items/item[@name='sledgehammersSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSledgehammers" level="2"/></set> <!--Max 75-->
-	<set xpath="/items/item[@name='spearsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSpears" level="2"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='repairToolsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRepairTools" level="3"/></set> <!--Max 50-->
+	<set xpath="/items/item[@name='salvageToolsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSalvageTools" level="3"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='knucklesSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingKnuckles" level="3"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='bladesSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBlades" level="3"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='clubsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingClubs" level="3"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='sledgehammersSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSledgehammers" level="3"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='spearsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSpears" level="3"/></set> <!--Max 75-->
 	<set xpath="/items/item[@name='bowsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingBows" level="3"/></set> <!--Max 100-->
 	<set xpath="/items/item[@name='handgunsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingHandguns" level="3"/></set> <!--Max 100-->
 	<set xpath="/items/item[@name='shotgunsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingShotguns" level="3"/></set> <!--Max 100-->
@@ -15,13 +15,13 @@
 	<set xpath="/items/item[@name='machineGunsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMachineGuns" level="3"/></set> <!--Max 100-->
 	<set xpath="/items/item[@name='explosivesSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingExplosives" level="3"/></set> <!--Max 100-->
 	<set xpath="/items/item[@name='roboticsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingRobotics" level="3"/></set> <!--Max 100-->
-	<set xpath="/items/item[@name='armorSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingArmor" level="2"/></set> <!--Max 75-->
-	<set xpath="/items/item[@name='medicalSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMedical" level="2"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='armorSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingArmor" level="3"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='medicalSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingMedical" level="3"/></set> <!--Max 75-->
 	<set xpath="/items/item[@name='foodSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingFood" level="3"/></set> <!--Max 100-->
-	<set xpath="/items/item[@name='seedSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSeeds" level="1"/></set> <!--Max 20-->
+	<set xpath="/items/item[@name='seedSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingSeeds" level="1"/></set> <!--Max 30-->
 	<set xpath="/items/item[@name='electricianSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingElectrician" level="3"/></set> <!--Max 100-->
-	<set xpath="/items/item[@name='trapsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingTraps" level="2"/></set> <!--Max 75-->
-	<set xpath="/items/item[@name='workstationSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingWorkstations" level="2"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='trapsSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingTraps" level="3"/></set> <!--Max 75-->
+	<set xpath="/items/item[@name='workstationSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingWorkstations" level="3"/></set> <!--Max 75-->
 	<set xpath="/items/item[@name='vehiclesSkillMagazine']/effect_group"><triggered_effect trigger="onSelfPrimaryActionEnd" action="AddProgressionLevel" progression_name="craftingVehicles" level="3"/></set> <!--Max 100-->
 
 </configs>
