@@ -48,10 +48,10 @@
   </append>
 
   <append xpath="/entitygroups/entitygroup[contains(@name,'BloodMoonHorde')]">
-    <entity name="zombieDemolition" prob="0.60"/>
+    <entity name="zombieDemolition"/>
   </append>
 
   <append xpath="/entitygroups/entitygroup[contains(@name,'feralHordeStageGS')]">
-    <entity name="zombieDemolition" prob="0.70"/>
+    <entity name="zombieDemolition"/>
   </append>
 </xfinalchancex>
