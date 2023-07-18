@@ -1,9 +1,9 @@
 <configs>
-	    <!-- Starter Bundle -->
+	    <!-- Starter CV -->
     <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvival']/@value"
-    >Curriculum Vitae</append>
+    >,Curriculum Vitae</append>
     <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalSP']/@value"
-    >Curriculum Vitae</append>
+    >,Curriculum Vitae</append>
     <append xpath="/entity_classes/entity_class[@name='playerMale']/property[@name='ItemsOnEnterGame.GameModeSurvivalMP']/@value"
-    >Curriculum Vitae</append>
+    >,Curriculum Vitae</append>
 </configs>
